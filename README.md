@@ -1,4 +1,4 @@
-# 真棒C #
+# Awesome C #
 C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (由链接的Open Source定义定义)，以及对物理资源不邪恶的卖家。
 这是在Creative Commons-Attribution-ShareAlike许可证版本4 (SPDX代码 “CC-BY-SA-4.0”) 下发布的。您可以在许可证文件中找到其文本。
 
@@ -6,27 +6,27 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 
 ** 贡献者注意: ** 如果您想发出拉取请求，请先阅读contribut化.md。
 
-# # 内容 # #
+## Contents ##
 
-* [人工智能](# 人工智能)
-* [标杆管理](# 标杆管理)
-* [构建系统](# Build-Systems)
-* [编译器](# 编译器)
-* [压缩](# 压缩)
-* [并发和并行](# 并发和并行)
-* [Crypto](# crypto)
-* [数据库](# 数据库)
-* [数据结构](# 数据结构)
-* [Debugging](# debugging)
-* [文档生成](# 文档生成)
-* [编辑](# 编辑)
-* [可嵌入脚本引擎](# 可嵌入脚本引擎)
-* [框架](# 框架)
-* [游戏编程](# 游戏编程)
-* [图形](# Graphics)
-* [图形用户界面](# 图形用户界面)
-* [散列](# 散列)
-* [学习，参考和教程](# 学习-参考和教程)
+* [AI](#ai)
+* [Benchmarking](#benchmarking)
+* [Build Systems](#build-systems)
+* [Compilers](#compilers)
+* [Compression](#compression)
+* [Concurrency and Parallelism](#concurrency-and-parallelism)
+* [Crypto](#crypto)
+* [Database](#database)
+* [Data Structures](#data-structures)
+* [Debugging](#debugging)
+* [Documentation Generation](#documentation-generation)
+* [Editors](#editors)
+* [Embeddable Scripting Engines](#embeddable-scripting-engines)
+* [Frameworks](#frameworks)
+* [Game Programming](#game-programming)
+* [Graphics](#graphics)
+* [Graphical User Interface](#graphical-user-interface)
+* [Hashing](#hashing)
+* [Learning, Reference and Tutorials](#learning-reference-and-tutorials)
 * [参考资源在线](# 参考资源-在线)
 * [初学者资源在线](# 初学者资源-在线)
 * [中级资源在线](# 中级资源在线)
@@ -35,33 +35,33 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [初学者书籍](# 初学者书籍)
 * [中级图书](# 中级图书)
 * [高级书籍](# 高级书籍)
-* [词法和解析](# 词法和解析)
-* [内存管理](# 内存管理)
-* [多媒体](# 多媒体)
-* [网络和互联网](# 网络和互联网)
-* [数值](# 数值)
-* [性能分析](# 性能分析)
-* [Regex](# regex)
-* [序列化](# Serialization)
-* [源代码集合](# Source-Code-Collections)
-* [标准库](# Standard-Libraries)
+* [Lexing and Parsing](#lexing-and-parsing)
+* [Memory Management](#memory-management)
+* [Multimedia](#multimedia)
+* [Networking and Internet](#networking-and-internet)
+* [Numerical](#numerical)
+* [Profiling](#profiling)
+* [Regex](#regex)
+* [Serialization](#serialization)
+* [Source Code Collections](#source-code-collections)
+* [Standard Libraries](#standard-libraries)
 * [模板库](# 模板库)
-* [字符串操作](# String-Manipulation)
-* [结构化文件处理](# 结构化文件处理)
+* [String Manipulation](#string-manipulation)
+* [Structured File Processing](#structured-file-processing)
 * [CSV](# csv)
 * [JSON](# json)
 * [INI](# ini)
 * [其他](# 其他)
 * [XML](# xml)
 * [YAML](# yaml)
-* [测试](# 测试)
-* [文本编辑器扩展](# Text-Editor-Extensions)
-* [工具](# 工具)
-* [实用程序](# 实用程序)
-* [Web框架](# web框架)
-* [Windows环境](# windows-环境)
+* [Testing](#testing)
+* [Text Editor Extensions](#text-editor-extensions)
+* [Tools](#tools)
+* [Utilities](#utilities)
+* [Web Frameworks](#web-frameworks)
+* [Windows Environments](#windows-environments)
 
-# # AI # #
+## AI ##
 计算机视觉、神经网络、机器学习和其他类似的东西，基本上，如果你的大学称之为人工智能，它就住在这里。
 
 * [ccv][195] - 基于C/缓存/核心计算机视觉库; 现代计算机视觉。[``BSD-3-Clause``][BSD-3-Clause]
@@ -73,12 +73,12 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [m2cgen][610] - 一个CLI工具，用于将经过训练的经典ML模型转换为具有零依赖关系的本机C代码。[``MIT``][MIT]
 * [sod][611] -  嵌入式计算机视觉和机器学习库[``GPL-3``][GPL-3]
 
-# # 基准测试 # #
+## Benchmarking ##
 比较跨不同芯片/系统架构的各种子系统的性能。
 
 * [b63][553] - 适用于C的轻量级微型基准测试工具。[``Apache-2.0``][Apache-2.0]
 
-# # 构建系统 # #
+## Build Systems ##
 在C中自动构建和测试项目的工具。
 
 * [Autotools][583] - 也称为GNU构建系统 (automake，autoconf，libtool...) 是最广泛使用的构建系统之一 (configure & & mke)。[GPL-1.0-or-later][335]
@@ -91,7 +91,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [xmake][271] - 跨平台构建实用程序。[``Apache-2.0``][Apache-2.0]
 * [zproject][420] - 项目生成器和生成系统支持工具。[``MPL-2.0``][MPL-2.0]
 
-# # 编译器 # #
+## Compilers ##
 编译器，以及编译器和编译相关的工具。
 
 * [ccache][466] - 编译器缓存旨在加快重新编译。[``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -102,7 +102,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [GCC][40] - 提供C编译器作为其编译器集的一部分。支持c11。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [PCC][74] - 古老的编译器。支持c99。[各种许可证][75]，全部开源。
 
-# # 压缩 # #
+## Compression ##
 
 * [blosc][445] - 非常快速，多线程，元压缩器库。各种许可证，都是开源的。
 * [Brotli][24] - 通用无损压缩算法库。具有与DEFLATE相当的速度，但压缩比要高得多。[''MIT''][麻省理工学院]。
@@ -132,7 +132,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [zlib-ng][1] - Zlib替换为 “下一代” 系统的优化。[``BSD-3-Clause``][BSD-3-Clause]
 * [Zstandard][510] - 快速、无损的压缩算法，针对zlib级别或更高压缩比的实时压缩场景。[``BSD-3-Clause``][BSD-3-Clause]
 
-# # 并发和并行 # #
+## Concurrency and Parallelism ##
 
 * [cchan][243] - 用于线程间通信的通道构造的小型库。公共领域。
 * [checkedthreads][465] - 一个简单的并行性库，内置检查竞争条件。[``BSD-2-Clause``][BSD-2-Clause]
@@ -154,7 +154,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [pthreads][146] - POSIX线程库。标准 (不适用许可证)。
 * [TinyCThread][115] - C11线程API的可移植的小型实现。[``Zlib``][Zlib]
 
-# # 加密 # #
+## Crypto ##
 主要是众所周知的密码算法或协议的库实现。
 
 * [GNU SASL][160] - 实现了简单的身份验证和安全层以及一些常见的SASL机制。[``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -172,7 +172,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [trezor-crypto][485] - 针对嵌入式设备进行了大量优化的加密算法。[``MIT``][MIT]
 * [bfish][598] - 一个包括C99 Blowfish ECB加密库。公共领域。
 
-# # 数据库 # #
+## Database ##
 具有C api的数据库和数据存储。
 
 * [BerkeleyDB][380] - 用于键值数据的高性能嵌入式数据库的库[``AGPL-3.0-only``][AGPL-3.0-only]
@@ -190,7 +190,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [UnQLite][23] - 自包含、无服务器、零配置、事务性NoSQL引擎。[``BSD-2-Clause``][BSD-2-Clause]
 * [WhiteDB][512] - 轻量级数据库库，完全在主内存中运行。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 
-# # 数据结构 # #
+## Data Structures ##
 
 * [C-Macro-Collections][550] - 使用宏生成简单和通用的数据结构。[``MIT``][MIT]
 * [CLIST][371] - 简单和轻量级[dynamic array][25] implementation.  [``BSD-2-Clause``][BSD-2-Clause]
@@ -210,7 +210,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [uthash][273] - 单文件哈希表实现。[``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][154] - 类型化列表的头库。[``MIT``][MIT]
 
-# # 调试 # #
+## Debugging ##
 因为我们有时都必须这样做。使调试更容易或更好的各种工具，以及允许更好的调试工作的库或代码。
 
 * [C-Reduce][403] - 工具，它采用具有感兴趣属性的大型C文件，并自动生成具有相同属性的小得多的C文件。旨在帮助在复杂代码中创建最小的bug演示案例。[``BSD-3-Clause``][BSD-3-Clause]
@@ -226,13 +226,13 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [rr][95] - 记录非确定性执行以允许确定性调试的调试器。[``BSD-2-Clause``][BSD-2-Clause]
 * [Valgrind][85] - 一系列动态分析工具，包括泄漏检查器。[``GPL-2.0-only``][GPL-2.0-only]
 
-# # 文档生成 # #
+## Documentation Generation ##
 
 * [Cxref][317] - 生成LaTeX，HTML，RTF或SGML文档。[``GPL-2.0-only``][GPL-2.0-only]
 * [DocOnce][322] - 适当标记的标记语言，可用于生成一系列格式。[``BSD-3-Clause``][BSD-3-Clause]
 * [Doxygen][318] - 用于从注释源生成文档的事实上的标准工具。可以生成大范围的格式。[``GPL-2.0-only``][GPL-2.0-only]
 
-# # 编辑 # #
+## Editors ##
 Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑器，看看其他地方。此外，无论你使用最有可能支持C反正。
 
 * [Anjuta DevStudio][42] - GNOME IDE。[``GPL-2.0-only``][GPL-2.0-only]
@@ -242,13 +242,13 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [KDevelop][44] - KDE IDE。[``GPL-2.0-only``][GPL-2.0-only]
 * [zinjaI][578] - 简单，轻量级和功能丰富的IDE。[``GPL-3.0-only``][GPL-3.0-only]
 
-# # 可嵌入的脚本引擎
+##嵌入式脚本引擎
 当C不是正确的解决方案时，或者当您需要更动态的配置引擎时:
 
 * [Duktape][591] - 嵌入式Javascript引擎，专注于可移植性和紧凑的足迹 [''MIT''][MIT]。
 * [MetaCall][607] - 跨平台多语言运行时，支持NodeJS，JavaScript，TypeScript，Python，Ruby，C #，Wasm，Java，Cobol等。[``Apache-2.0``][Apache-2.0]
 
-# # 框架 # #
+## Frameworks ##
 提供数据结构和其他你期望的 “现代” 标准库的大型库。
 
 * [APR][78] - Apache可移植运行时; 另一个跨平台实用程序函数库。[``Apache-2.0``][Apache-2.0]
@@ -267,7 +267,7 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [TBOX][398] - 具有大量功能的多平台库。[``Apache-2.0``][Apache-2.0]
 * [pspsdk][620] - 用于PSP自制程序开发的开源SDK。[各种许可证][621]。
 
-# # 游戏编程 # #
+## Game Programming ##
 引擎、库和其他专门用于制作游戏的有用的东西。
 
 * [Allegro][48] - 跨平台，视频游戏开发和多媒体库。[``Zlib``][Zlib]
@@ -300,7 +300,7 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [SIGIL][429] - 声音，输入和图形集成库; 一个简单的替代其他库做所有这些事情。各种许可证，都是开源的。
 * [uastar][535] - 最小A \ * 实现。[``ZLib``][Zlib]
 
-# # 图形 # #
+## Graphics ##
 C中的图形的编程操作; 如果你想做一个GUI，图形用户界面部分有你需要的。
 
 * [AssetKit][571] 🎨基于COLLADA/glTF规格的3D资产进口商/出口商/实用库[``MIT``][MIT]
@@ -327,7 +327,7 @@ C中的图形的编程操作; 如果你想做一个GUI，图形用户界面部�
 * [PlutoVG][590] - C中的独立2D矢量图形库[``MIT``][MIT]
 * [SAIL][601] - ⛵人类缺少的小型快速图像解码库 (不适用于机器)[``MIT``][MIT]
 
-# # 图形用户界面 # #
+## Graphical User Interface ##
 Widget工具包，或以类似方式使用它们的东西。
 
 * [GTK+][14] - 跨平台小部件工具包。[``LGPL-2.1-only``][LGPL-2.1-only]
@@ -340,7 +340,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [LVGL][575] - 嵌入式GUI具有易于使用的图形元素，美丽的视觉效果和低内存占用。[``MIT``][MIT]
 * [luigi][614] - Win32，X11和Essence的准系统单标题GUI库。[``MIT``][MIT]
 
-# # 散列 # #
+## Hashing ##
 * 非加密目的的哈希函数实现。加密哈希可以在Crypto部分找到。
 
 * [CLHash][495] - 库实现可笑的快速CLHash哈希函数。仅适用于Intel Haswell或更新版本。[``Apache-2.0``][Apache-2.0]
@@ -349,91 +349,91 @@ Widget工具包，或以类似方式使用它们的东西。
 * [t1ha][530] - 快速正散列-一种可移植的快速散列函数。[``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][522] - 非常快速的哈希算法。有32位和64位的品种。[``BSD-2-Clause``][BSD-2-Clause]
 
-# # 学习，参考和教程 # #
+## Learning, Reference and Tutorials ##
 一般学习C编程的资源，或与C编程相关的有用资源。
 
-### 在线参考资源 ###
+### Reference resources online ###
 
-* [无锁内存分配器的基准测试][450]
-* [C常见问题-comp.lang.c常见问题][262]
-* Linux的C/POSIX标准库实现的比较 [362]
-* [C89标准草案][6]
-* [C99标准草案][258]
-* [C11标准草案][247]
-* [寻找最佳的64位模拟PRNG][529]
-* [SEI证书C编码标准][266]
+* [Benchmarks of the Lockless Memory Allocator][450]
+* [C FAQ - comp.lang.c Frequently Asked Questions][262]
+* [Comparison of C/POSIX standard library implementations for Linux][362]
+* [Draft C89 standard][6]
+* [Draft C99 standard][258]
+* [Draft C11 standard][247]
+* [Finding the best 64-bit simulation PRNG][529]
+* [SEI CERT C Coding Standard][266]
 * [tinyc.game][559] - Tiny C游戏，您可以立即编译和运行http:// tinyc.games[``MIT``][MIT]
 
-### 初学者资源在线 ###
+### Beginner resources online ###
 
-* [关于指针的教程][213]
-* [关于便携式Makefiles的教程][528]
-* [C栋工程][208]
-* [C编程维基][248]
-* [介绍 \ 'fun'c][279]
-* [用GDB学习C][349]
+* [A tutorial on pointers][213]
+* [A tutorial on portable Makefiles][528]
+* [Building C Projects][208]
+* [C Programming Wikibook][248]
+* [Introduction to \`fun' C][279]
+* [Learning C with GDB][349]
 * [memcpy vs memmove][205]
 * [POSIX Threads Programming tutorial][263] (有点过时，但大部分仍然有效和有用)
 * [The GNU C Programming Tutorial][212] (在线PDF)
-* [C中模板化][267]
-* [C程序员应该知道的关于内存的知识][227]
-* [CodeforWin: 在线学习C编程，数据结构教程和练习][605]
-* [Learn C: 免费开源交互式C教程][606]
-* [如何在C中编写文本冒险][615]
+* [Templating in C][267]
+* [What a C programmer should know about memory][227]
+* [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
+* [Learn C: Free and Open-Source Interactive C Tutorial][606]
+* [How to program a text adventure in C][615]
 
-### 中间资源联机 ###
+### Intermediate resources online ###
 
-* [你应该知道的8个gdb技巧][206]
-* [10 C99技巧][257]
-* [全面的MPI教程资源][454]
-* [建立自己的文本编辑器][700]
-* [潜入并发: 尝试互斥和原子][202]
-* [通用C引用计数][443]
-* [如何编写便携式C而不使你的构建复杂化][490]
+* [8 gdb tricks you should know][206]
+* [10 C99 tricks][257]
+* [A comprehensive MPI tutorial resource][454]
+* [Build Your Own Text Editor][700]
+* [Diving into concurrency: trying out mutexes and atomics][202]
+* [Generic C reference counting][443]
+* [How to write portable C without complicating your build][490]
 * [Introduction to OpenMP][207] (视频)
 * [OpenMP tutorial][264] (适用于OpenMP3标准)
-* [MPI教程][265]
-* [可扩展C-编写大规模分布式C][391]
-* [C语言中一些未知的特性或技巧][374]
-* [每个C程序员应该知道的未定义行为][275]
+* [MPI tutorial][265]
+* [Scalable C - Writing Large-Scale Distributed C][391]
+* [Some unknown features or tricks in C language][374]
+* [What every C programmer should know about undefined behaviour][275]
 
-### 高级资源联机 ###
+### Advanced resources online ###
 
-* [C高级元编程][357]
-* [关于实现和调试malloc，free，calloc和realloc的快速教程][204]
-* [位旋转黑客][73]
-* 实现C编程语言的智能指针 [240]
-* [C中的内联函数][245]
-* [C中的元编程自定义控制结构][343]
-* [解决C宏的临时存储问题][358]
-* [C的一些黑暗角落][210]
-* [编写高效的C和C代码优化][33]
-* [在纯C99中编译代数数据类型][608]
+* [Advanced metaprogramming in C][357]
+* [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
+* [Bit twiddling hacks][73]
+* [Implementing smart pointers for the C programming language][240]
+* [Inline functions in C][245]
+* [Metaprogramming custom control structures in C][343]
+* [Solving the temporary storage problem of C macros][358]
+* [Some dark corners of C][210]
+* [Writing efficient C and C code optimization][33]
+* [Compiling Algebraic Data Types in Pure C99][608]
 
-### 参考书 ###
+### Reference books ###
 
 * [C: A Reference Manual 5E][181] - C99的完整参考书。
 * [C in a Nutshell 2E][418] - C11简明参考书。
 * [C Pocket Reference][182] - C99简明参考书。
 * [The C Programming Language 2E][7] - 原书C，由其创作者。
 
-### 初学者书籍 ###
+### Beginner books ###
 
 * [C Primer Plus 6E][184] - 完整的c11编程教程。
 * [C Programming: A Modern Approach][64] - 学习C的基础知识的好书。
 * [Head First C][102] - 学习C的 “Head-first” 样式书。
 
-### 中间图书 ###
+### Intermediate books ###
 
 * [21st Century C][35] - 好_第二_C编程的书。
 * [Understanding and Using C Pointers][36] - C中的指针上的深入资源。
 * [ZeroMQ][183] - 使用ZeroMQ与C的书。
 
-### 高级书籍 ###
+### Advanced books ###
 
 * [Expert C Programming: Deep C Secrets][55] - 有趣，深入和有趣的看看C的内部。
 
-# # 词法分析 # #
+## Lexing and Parsing ##
 专门用于词法分析 (或词法) 和句法分析 (或解析) 的库。
 
 * [flex][491] - 快速词法分析器生成器。[``BSD-2-Clause``][BSD-2-Clause]
@@ -443,7 +443,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [owl][576] - 用于可视下推语言的解析器生成器。[``MIT``][MIT]
 * [re2c][34] - Lexer生成器，生产快速Lexer，可以访问其内部。公共领域。
 
-# # 内存管理 # #
+## Memory Management ##
 无论是不同的，更快的malloc还是直接的垃圾收集，与管理C内存有关的任何事情都在这里。
 
 * [Boehm GC][125] - C的垃圾收集。各种许可证，都是开源的。
@@ -454,7 +454,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [talloc][353] - 具有析构函数的分层引用计数内存池系统。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [tlsf][531] - 两级隔离Fit分配器; 一种通用的动态内存分配器，旨在满足实时要求。[Up-to-date  implementation][532]. [``BSD-3-Clause``][BSD-3-Clause]
 
-# # 多媒体 # #
+## Multimedia ##
 
 * [aubio][523] - 音频和音乐分析库。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [FFMPEG][63] - 完整的跨平台解决方案，用于记录，转换和流式传输音频和视频。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -467,7 +467,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [minimp3][536] - 轻量级MP3解码器单头库。[``CC0-1.0``][CC0-1.0]
 * [Soundpipe][513] - 轻量级的音乐DSP库。[``MIT``][MIT]
 
-# # 网络和互联网 # #
+## Networking and Internet ##
 低级网络和互联网相关的东西。如果你想要更全面和更高层次的东西，你可能需要Web框架部分。
 
 * [asnlc][138] - 将ASN.1规范编译成C源代码。[``BSD-2-Clause``][BSD-2-Clause]
@@ -509,7 +509,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Wslay][460] - WebSocket库。实现WebSocket协议的版本13，如RFC 6455中所述。[``MIT``][MIT]
 * [zyre][419] - 基于邻近的对等应用程序的框架。[``MPL-2.0``][MPL-2.0]
 
-# # 数值 # #
+## Numerical ##
 
 * [apophenia][188] - 统计和科学计算图书馆。[``GPL-2.0-only``][GPL-2.0-only]
 * [Arb][497] - 用于任意精度区间算术的库。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -537,18 +537,18 @@ Widget工具包，或以类似方式使用它们的东西。
 * [TomsFastMath][462] - 一组优化的数学运算 (在汇编中)，适合加密使用。公共领域。
 * [Yeppp!][72] - 快速、SIMD优化的数学库[``BSD-3-Clause``][BSD-3-Clause]
 
-# # 剖析 # #
+## Profiling ##
 
 * [gperftools][295] - 用于测量和改进性能的实用程序的集合。[``BSD-3-Clause``][BSD-3-Clause]
 * [gprof][86] - 性能分析工具。GNU binutils的一部分。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [OProfile][475] - Linux的统计分析器。可以分析任何代码 (包括内核!)，开销低，无需重新编译。[``GPL-2.0-only``][GPL-2.0-only]
 * [perf][375] - 基于linux内核的分析器，具有很多功能。[``GPL-2.0-only``][GPL-2.0-only]
 
-# # PDF # #
+## PDF ##
 
 * [pdfio][612] - PDFio是一个简单的C库，用于读取和写入pdf文件。[``Apache-2.0``][Apache-2.0]
 
-# # 正则表达式 # #
+## Regex ##
 
 * [Onigmo][518] - Oniguruma的叉子，支持更高级的regexps。[``BSD-2-Clause``][BSD-2-Clause]
 * [Oniguruma][517] - 正则表达式库支持广泛的编码，并包含许多面向安全的修补程序。[``BSD-2-Clause``][BSD-2-Clause]
@@ -556,7 +556,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [SLRE][80] - 超轻正则表达式库; Perl正则表达式语法子集的一个小实现。[``GPL-2.0-only``][GPL-2.0-only]
 * [TRE][82] - POSIX兼容，功能完整的正则表达式库。[``BSD-2-Clause``][BSD-2-Clause]
 
-# # 序列化 # #
+## Serialization ##
 
 * [binn][400] - 二进制序列化格式，意味着紧凑，快速和易于使用。[``Apache-2.0``][Apache-2.0]
 * [c-capnproto][130] - Cap'n Proto序列化协议的实现。[``MIT``][MIT]
@@ -570,7 +570,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [xdr][131] - 外部数据表示; 数据序列化的标准。标准 (无许可证适用)。
 * [pbtools][555] - Google Protocol Buffers C源代码生成器.[``MIT``][MIT]
 
-# # 源代码集合 # #
+## Source Code Collections ##
 小源代码的集合。如果你想要一些大的和集成的东西，请检查框架部分。
 
 * [CCAN][103] - 以Perl的CPAN为模型，这是一个很大的代码集合。完整列表是 [这里][104]。各种许可证，都是开源的。
@@ -584,7 +584,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [tinyheaders][108] - 仅标题库的集合，主要面向游戏开发。[``Zlib``][Zlib]
 * [zpl][602] - C99跨平台的标题只有库与许多好东西。[``BSD-3-Clause``, ``Unlicense``][BSD-3-Clause, Unlicense]
 
-# # 标准库 # #
+## Standard Libraries ##
 (标准强制) C标准库的实现。
 
 * [Bionic][4] - Google的标准库，为Android开发。[``BSD-3-Clause``][BSD-3-Clause]
@@ -595,11 +595,11 @@ Widget工具包，或以类似方式使用它们的东西。
 * [PDCLib][447] - 公共领域C库。实现了大部分的C99和一些c11。[``CC0-1.0``][CC0-1.0]
 * [uClibc-ng][12] - 用于开发嵌入式系统的小型C库。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 
-### 模板库
+###模板库
 
 * [CTL][613] - C容器模板库 (CTL)[``MIT``][MIT]
 
-# # 字符串操作 # #
+## String Manipulation ##
 
 * [bstring][116] - 更好的字符串库。[``BSD-3-Clause``][BSD-3-Clause]
 * [ICU][67] - Unicode的国际组件; 支持Unicode的库。[``ICU``][ICU]
@@ -608,12 +608,12 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libgiconv][163] - 文本转换库。[``LGPL-2.1-only``][LGPL-2.1-only]
 * [librope][479] - UTF-8绳子 (“沉重” 字符串) 库。[``MIT``][MIT]
 * [SDS][29] - 简单的动态字符串; 一个以更简单的方式处理字符串的库，但与普通的C字符串函数兼容。可通过[clib][26]. [``BSD-2-Clause``][BSD-2-Clause]
-* [stmr.c][383] - [波特·斯特默][367] algorithm implementation. [``MIT``][MIT]
+* [stmr.c][383] - [Porter Stemmer][367] algorithm implementation. [``MIT``][MIT]
 * [str][587] - 又一个c语言的字符串库。[``BSD-3-Clause``][BSD-3-Clause]
 * [utf8.h][472] - 单头UTF-8库，旨在模仿C风格的字符串函数。公共领域。
 * [utf8proc][469] - 用于处理UTF-8数据的库。[``MIT``][MIT]
 
-# # 结构化文件处理 # #
+## Structured File Processing ##
 这包括XML、JSON、CSV和其他类似格式的库。
 
 ### CSV ###
@@ -639,7 +639,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libconfini][122] - 还有一个INI解析器。[``GPL-3.0-only``][GPL-3.0-only]
 * [minIni][109] - 小巧便携的INI解析器。[``Apache-2.0``][Apache-2.0]
 
-### 其他 ###
+### Others ###
 
 * [libbson][235] - BSON实用程序库。[``Apache-2.0``][Apache-2.0]
 * [libcbor][573]: C和其他人的CBOR协议实现。[``MIT``][MIT]
@@ -658,11 +658,11 @@ Widget工具包，或以类似方式使用它们的东西。
 
 * [libYAML][341] - YAML 1.1解析器和发射器。[``MIT``][MIT]
 
-# # 信号处理 # #
+## Signal Processing ##
 
 * [libsigrok][601] -  支持各种设备类型 (如逻辑分析仪、示波器、万用表等) 的信号分析软件套件。[``GPL``][GPL]
 
-# # 测试 # #
+## Testing ##
 
 * [CHEAT][84] - 简单的单元测试框架。[``BSD-2-Clause``][BSD-2-Clause]
 * [Check][59] - 单元测试框架。[``LGPL-2.1-only``][LGPL-2.1-only]
@@ -683,7 +683,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Unity][296] - 简单的单元测试框架。[``MIT``][MIT]
 * [utest][386] - 单头单元测试库。[``Unlicense``][Unlicense]
 
-# # 文本编辑器扩展 # #
+## Text Editor Extensions ##
 尽管实际上任何体面的程序员的文本编辑器都支持C，但有些扩展使它更加令人愉悦。这些由编辑标记。
 
 * [CCompletion][92] - 记事本自动完成插件。适用于Ctags识别的所有标识符。这是一个下载链接。[``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -694,7 +694,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [YASnippet][150] - Emacs代码模板系统，带有C模板的常用代码片段。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [YouCompleteMe][151] - Vim的代码完成引擎。[``GPL-3.0-only``][GPL-3.0-only]
 
-# # 工具 # #
+## Tools ##
 有用的程序来帮助您编写和调试C代码，这些代码不是 * 编辑器，库或编译器。
 
 * [Artistic Style][314] - 支持C的快速小型自动源代码格式化程序。[``LGPL-3.0-only``][LGPL-3.0-only]
@@ -718,7 +718,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [SMACK][500] - 模块化软件验证工具链和独立的软件验证程序。目前仅适用于使用Clang编译的程序。[``MIT``][MIT]
 * [unifdef][290] - 删除 # ifdef和 # if指令及其分隔文本，而不触及文件的任何其他部分。[``BSD-3-Clause``][BSD-3-Clause] or  [``BSD-2-Clause``][BSD-2-Clause]
 
-# # 实用程序 # #
+## Utilities ##
 任何不适合其他地方的东西的 “全能” 类别。
 
 * [ApeTagLibs][345] - 用于处理APEv2标记的库。[``MIT``][MIT]
@@ -783,7 +783,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Metalang99][603] - 全面的预处理器元编程。[``MIT``][MIT]
 * [Datatype99][604] - C99的代数数据类型。[``MIT``][MIT]
 
-# # Web框架 # #
+## Web Frameworks ##
 全面和集成的解决方案，用于在C中构建下一个出色的web应用程序。
 
 * [Concord][617] - 一个用C ++ 编写的Discord API包装库。[``MIT``][MIT]
@@ -792,7 +792,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [KLone][423] - 功能齐全的多平台web应用程序开发框架，特别针对嵌入式系统和设备。[``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - 易于使用的web应用程序框架，用于在C中编写可扩展的web api。[``ISC``][ISC]
 
-# # Windows环境 # #
+## Windows Environments ##
 旨在使Windows在支持C方面投入21世纪的技术。
 
 * [Cygwin][253] - 旨在广泛模拟Windows下的POSIX兼容环境。[各种许可证，全部开源][254]。
@@ -831,7 +831,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [取消许可]: https://spdx.org/licenses/Unlicense.html
 [WTFPL]: https://spdx.org/licenses/WTFPL.html
 [X11]: https://spdx.org/licenses/X11.html
-[Zlib]: https://spdx.org/licenses/Zlib.html
+[Zlib]: https://spdx.org/licenses/Zlib.html* [AI2](https://github.com/zeromq/libzmq)[AI2](https://github.com/zeromq/libzmq)
 
 [1]: https://github.com/Dead2/zlib-ng
 [2]: https://github.com/Cyan4973/FiniteStateEntropy
@@ -856,7 +856,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [21]: http://xforms-toolkit.org/
 [22]: https://www.sqlite.org/
 [23]: https://unqlite.org/
-[24]: https://github.com/google/brotl我
+[24]: https://github.com/google/brotli
 [25]: https://en.wikipedia.org/wiki/Dynamic_array
 [26]: https://github.com/clibs/clib
 [27]: https://github.com/clibs/clib/wiki/Packages
@@ -898,7 +898,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [63]: https://www.ffmpeg.org/
 [64]: http://knking.com/books/c2/index.html
 [65]: https://curl.haxx.se/libcurl/
-[66]: https://github.com/Snaipe/libcspt右
+[66]: https://github.com/Snaipe/libcsptr
 [67]: http://site.icu-project.org/
 [68]: https://libspng.org/
 [69]: https://lodev.org/lodepng/
@@ -941,7 +941,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [106]: https://nanomsg.github.io/nng/
 [107]: https://ioquake3.org
 [108]: https://github.com/RandyGaul/tinyheaders
-[109]: https://github.com/compuphase/minIn我
+[109]: https://github.com/compuphase/minIni
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
 [112]: http://www.gnutls.org/
@@ -960,7 +960,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [125]: https://www.hboehm.info/gc/
 [126]: https://github.com/rampantpixels/rpmalloc
 [127]: https://h2o.examp1e.net/
-[128]: https://github.com/atgreen/libff我
+[128]: https://github.com/atgreen/libffi
 [129]: https://github.com/protobuf-c/protobuf-c
 [130]: https://github.com/jmckaskill/c-capnproto
 [131]: https://en.wikipedia.org/wiki/External_Data_Representation
@@ -999,7 +999,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [164]: https://gnu.org/software/libidn/
 [165]: https://gnu.org/software/libmicrohttpd/
 [166]: https://www.hughes.com.au/products/libhttpd/
-[167]: https://github.com/gpakosz/wheream我
+[167]: https://github.com/gpakosz/whereami
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
 [170]: https://www.coralbits.com/libonion/
@@ -1028,7 +1028,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [193]: https://libjpeg-turbo.virtualgl.org/
 [194]: https://www.libjpeg-turbo.org/About/License
 [195]: http://libccv.org/
-[196]: https://github.com/google/gumbo-parse右
+[196]: https://github.com/google/gumbo-parser
 [197]: https://llhttp.org
 [198]: https://download.libsodium.org/doc
 [199]: https://lwan.ws
@@ -1041,7 +1041,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [206]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
 [207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [208]: http://nethack4.org/blog/building-c.html
-[209]: https://github.com/riolet/WAFe右
+[209]: https://github.com/riolet/WAFer
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
@@ -1077,7 +1077,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [243]: http://repo.hu/projects/cchan/
 [244]: http://sophia.systems
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
-[246]: https://criterion.readthedocs.io/en/maste右
+[246]: https://criterion.readthedocs.io/en/master
 [247]: https://port70.net/~nsz/c/c11/n1570.html
 [248]: https://en.wikibooks.org/wiki/C_Programming
 [249]: http://www.codeblocks.org/
@@ -1114,7 +1114,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [281]: http://www.dyncall.org/
 [282]: http://www.mcs.anl.gov/petsc/
 [283]: http://slepc.upv.es/
-[284]: https://github.com/open-mpi/omp我
+[284]: https://github.com/open-mpi/ompi
 [285]: http://www.mpich.org/
 [286]: http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT
 [287]: http://mingw-w64.yaxm.org/doku.php/start
@@ -1165,7 +1165,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [333]: http://www.andre-simon.de/index.php
 [334]: https://en.wikipedia.org/wiki/Levenshtein_distance
 [335]: https://spdx.org/licenses/GPL-1.0.html
-[336]: https://github.com/ndevilla/iniparse右
+[336]: https://github.com/ndevilla/iniparser
 [337]: https://github.com/jtsiomb/kdtree
 [338]: http://www.oberhumer.com/opensource/lzo/
 [339]: http://www.nlnetlabs.nl/projects/ldns/index.html
@@ -1185,7 +1185,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [353]: https://talloc.samba.org/talloc/doc/html/index.html
 [354]: https://github.com/libimobiledevice/libimobiledevice
 [355]: http://kitsune-dsu.com/
-[356]: https://github.com/abiggerhammer/hamme右
+[356]: https://github.com/abiggerhammer/hammer
 [357]: http://250bpm.com/blog:56
 [358]: https://web.archive.org/web/20170429175803/http://www.samnip.ps/thought/macro-storage-for-inverse-comma
 [359]: https://github.com/awslabs/s2n
@@ -1224,7 +1224,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [392]: https://nemequ.github.io/munit
 [393]: https://github.com/quixdb/squash
 [394]: https://github.com/codeplea/minctest
-[395]: https://github.com/codeplea/tinyexp右
+[395]: https://github.com/codeplea/tinyexpr
 [396]: https://github.com/nsf/termbox
 [397]: http://opic.rocks/
 [398]: https://github.com/waruqi/tbox
@@ -1237,7 +1237,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [405]: https://github.com/hoedown/hoedown
 [406]: https://github.com/srdja/Collections-C
 [407]: https://github.com/Juniper/libxo
-[408]: https://github.com/Immediate-Mode-UI/Nuklea右
+[408]: https://github.com/Immediate-Mode-UI/Nuklear
 [409]: https://github.com/blunderer/libroxml
 [410]: https://www.spinellis.gr/cscout/
 [411]: https://liblfds.org/
@@ -1272,7 +1272,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [441]: https://github.com/neomake/neomake
 [442]: http://libdill.org/
 [443]: https://nullprogram.com/blog/2015/02/17
-[444]: https://github.com/ands/lightmappe右
+[444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/pages/blosc-in-depth
 [446]: https://github.com/Kazade/kazmath
 [447]: http://pdclib.e43.eu/
@@ -1281,10 +1281,10 @@ Widget工具包，或以类似方式使用它们的东西。
 [450]: https://locklessinc.com/benchmarks_allocator.shtml
 [451]: https://locklessinc.com/
 [452]: https://github.com/distcc/distcc
-[453]: https://github.com/doches/progressba右
+[453]: https://github.com/doches/progressbar
 [454]: http://mpitutorial.com/
 [455]: http://libtrading.org/
-[456]: https://github.com/prideout/pa右
+[456]: https://github.com/prideout/par
 [457]: https://github.com/grimfang4/sdl-gpu
 [458]: http://www.mega-nerd.com/libsndfile/
 [459]: https://github.com/parallella/pal
@@ -1292,14 +1292,14 @@ Widget工具包，或以类似方式使用它们的东西。
 [461]: http://www.libtom.net/LibTomMath/
 [462]: http://www.libtom.net/TomsFastMath/
 [463]: http://www.libtom.net/LibTomPoly/
-[464]: https://github.com/LibVNC/libvncserve右
+[464]: https://github.com/LibVNC/libvncserver
 [465]: https://github.com/yosefk/checkedthreads
 [466]: https://ccache.dev/
 [467]: https://github.com/esneider/debug
 [468]: https://lldb.llvm.org/
 [469]: https://github.com/JuliaLang/utf8proc
-[470]: https://github.com/vmg/cla右
-[471]: https://github.com/powturbo/TurboPFo右
+[470]: https://github.com/vmg/clar
+[471]: https://github.com/powturbo/TurboPFor
 [472]: https://github.com/sheredom/utf8.h
 [473]: https://github.com/troydhanson/tpl
 [474]: http://liburcu.org/
@@ -1335,7 +1335,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [504]: https://github.com/antirez/linenoise
 [505]: https://github.com/memononen/nanovg
 [506]: https://github.com/centaurean/density
-[507]: https://maciejczyzewski.github.io/rette右
+[507]: https://maciejczyzewski.github.io/retter
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
@@ -1363,7 +1363,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [532]: https://github.com/minad/tlsf
 [533]: https://github.com/gildor2/fast_zlib
 [534]: https://github.com/ferreiradaselva/mathc
-[535]: https://github.com/ferreiradaselva/uasta右
+[535]: https://github.com/ferreiradaselva/uastar
 [536]: https://github.com/lieff/minimp3
 [537]: https://github.com/adis300/fft-c
 [538]: https://github.com/nbulischeck/list.h
@@ -1378,7 +1378,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [548]: https://github.com/libarchive/libarchive
 [549]: https://github.com/LiamBindle/MQTT-C
 [550]: https://github.com/LeoVen/C-Macro-Collections
-[551]: https://github.com/mysql/mysql-serve右
+[551]: https://github.com/mysql/mysql-server
 [553]: https://github.com/okuvshynov/b63
 [554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
@@ -1388,7 +1388,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [559]: https://github.com/superjer/tinyc.games
 [560]: https://github.com/eerimoq/nala
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
-[562]: https://kristaps.bsd.lv/kcg我
+[562]: https://kristaps.bsd.lv/kcgi
 [563]: https://github.com/christophercrouzet/rexo
 [564]: https://github.com/ithewei/libhv
 [565]: https://github.com/sakhmatd/rogueutil
@@ -1399,7 +1399,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [570]: https://github.com/recp/cmt
 [571]: https://github.com/recp/AssetKit
 [572]: https://github.com/shiyanhui/libcsp
-[573]: https://github.com/PJK/libcbo右
+[573]: https://github.com/PJK/libcbor
 [574]: https://git.sr.ht/~mcf/cproc
 [575]: https://lvgl.io/
 [576]: https://github.com/ianh/owl
@@ -1413,7 +1413,7 @@ Widget工具包，或以类似方式使用它们的东西。
 [584]: https://github.com/msune/autotools-skeleton
 [585]: https://msune.github.io/libcdada/
 [586]: https://github.com/ariya/fastlz
-[587]: https://github.com/maxim2266/st右
+[587]: https://github.com/maxim2266/str
 [588]: https://github.com/saprykin/plibsys
 [589]: https://github.com/Jorengarenar/libXDGdirs
 [590]: https://github.com/sammycage/plutovg
@@ -1441,9 +1441,9 @@ Widget工具包，或以类似方式使用它们的东西。
 [611]: https://sod.pixlab.io/
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
-[614]: https://github.com/nakst/luig我
+[614]: https://github.com/nakst/luigi
 [615]: https://github.com/helderman/htpataic
-[616]: https://github.com/rxi/microu我
+[616]: https://github.com/rxi/microui
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
