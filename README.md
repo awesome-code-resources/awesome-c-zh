@@ -2,9 +2,9 @@
 C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (由链接的Open Source定义定义)，以及对物理资源不邪恶的卖家。
 这是在Creative Commons-Attribution-ShareAlike许可证版本4 (SPDX代码 “CC-BY-SA-4.0”) 下发布的。您可以在许可证文件中找到其文本。
 
-** 一个重要的注意事项: ** 这个项目没有 * 索引任何与C相关的东西; onlypure C的东西被考虑。
+**An important note:**这个项目没有 * 索引任何与C相关的东西; onlypure C的东西被考虑。
 
-** 贡献者注意: ** 如果您想发出拉取请求，请先阅读contribut化.md。
+**Note for contributors:**如果要提出拉取请求，请先重新贡献.md。
 
 ## Contents ##
 
@@ -27,14 +27,14 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [Graphical User Interface](#graphical-user-interface)
 * [Hashing](#hashing)
 * [Learning, Reference and Tutorials](#learning-reference-and-tutorials)
-* [参考资源在线](# 参考资源-在线)
-* [初学者资源在线](# 初学者资源-在线)
-* [中级资源在线](# 中级资源在线)
-* [高级资源在线](# 高级-资源-在线)
-* [参考书](# 参考书)
-* [初学者书籍](# 初学者书籍)
-* [中级图书](# 中级图书)
-* [高级书籍](# 高级书籍)
+  * [Reference resources online](#reference-resources-online)
+  * [Beginner resources online](#beginner-resources-online)
+  * [Intermediate resources online](#intermediate-resources-online)
+  * [Advanced resources online](#advanced-resources-online)
+  * [Reference books](#reference-books)
+  * [Beginner books](#beginner-books)
+  * [Intermediate books](#intermediate-books)
+  * [Advanced books](#advanced-books)
 * [Lexing and Parsing](#lexing-and-parsing)
 * [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
@@ -45,15 +45,15 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standard-libraries)
-* [模板库](# 模板库)
+  * [Template Libraries](#template-libraries)
 * [String Manipulation](#string-manipulation)
 * [Structured File Processing](#structured-file-processing)
-* [CSV](# csv)
-* [JSON](# json)
-* [INI](# ini)
-* [其他](# 其他)
-* [XML](# xml)
-* [YAML](# yaml)
+	* [CSV](#csv)
+	* [JSON](#json)
+	* [INI](#ini)
+	* [Others](#others)
+	* [XML](#xml)
+	* [YAML](#yaml)
 * [Testing](#testing)
 * [Text Editor Extensions](#text-editor-extensions)
 * [Tools](#tools)
