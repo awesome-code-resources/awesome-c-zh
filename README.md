@@ -1,68 +1,68 @@
 # Awesome C #
-C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (由链接的Open Source定义定义)，以及对物理资源不邪恶的卖家。
+C好东西的精选清单。此列表包含*仅*[开源][13] 代码 (由链接的开源定义定义)，以及对物理资源不邪恶的卖家。
 这是在Creative Commons-Attribution-ShareAlike许可证版本4 (SPDX代码 “CC-BY-SA-4.0”) 下发布的。您可以在许可证文件中找到其文本。
 
-**An important note:**这个项目没有 * 索引任何与C相关的东西; onlypure C的东西被考虑。
+**一个重要的注意事项:**这个项目做*不*索引任何与C相关的东西; 只考虑纯C的东西。
 
-**Note for contributors:**如果要提出拉取请求，请先重新贡献.md。
+**贡献者注意事项:**如果您想提出拉取请求，请先阅读贡献.md。
 
 ## Contents ##
 
-* [AI](#ai)
-* [Benchmarking](#benchmarking)
-* [Build Systems](#build-systems)
-* [Compilers](#compilers)
-* [Compression](#compression)
-* [Concurrency and Parallelism](#concurrency-and-parallelism)
-* [Crypto](#crypto)
-* [Database](#database)
-* [Data Structures](#data-structures)
-* [Debugging](#debugging)
-* [Documentation Generation](#documentation-generation)
-* [Editors](#editors)
-* [Embeddable Scripting Engines](#embeddable-scripting-engines)
-* [Frameworks](#frameworks)
-* [Game Programming](#game-programming)
-* [Graphics](#graphics)
-* [Graphical User Interface](#graphical-user-interface)
-* [Hashing](#hashing)
-* [Learning, Reference and Tutorials](#learning-reference-and-tutorials)
-  * [Reference resources online](#reference-resources-online)
-  * [Beginner resources online](#beginner-resources-online)
-  * [Intermediate resources online](#intermediate-resources-online)
-  * [Advanced resources online](#advanced-resources-online)
-  * [Reference books](#reference-books)
-  * [Beginner books](#beginner-books)
-  * [Intermediate books](#intermediate-books)
-  * [Advanced books](#advanced-books)
-* [Lexing and Parsing](#lexing-and-parsing)
-* [Memory Management](#memory-management)
-* [Multimedia](#multimedia)
-* [Networking and Internet](#networking-and-internet)
-* [Numerical](#numerical)
-* [Profiling](#profiling)
-* [Regex](#regex)
-* [Serialization](#serialization)
-* [Source Code Collections](#source-code-collections)
-* [Standard Libraries](#standard-libraries)
-  * [Template Libraries](#template-libraries)
-* [String Manipulation](#string-manipulation)
-* [Structured File Processing](#structured-file-processing)
-	* [CSV](#csv)
-	* [JSON](#json)
-	* [INI](#ini)
-	* [Others](#others)
-	* [XML](#xml)
-	* [YAML](#yaml)
-* [Testing](#testing)
-* [Text Editor Extensions](#text-editor-extensions)
-* [Tools](#tools)
-* [Utilities](#utilities)
-* [Web Frameworks](#web-frameworks)
-* [Windows Environments](#windows-environments)
+* [AI](#ai) 人工智能
+* [Benchmarking](#benchmarking) 基准测试
+* [Build Systems](#build-systems) 构建系统
+* [Compilers](#compilers) 编译器
+* [Compression](#compression) 压缩
+* [Concurrency and Parallelism](#concurrency-and-parallelism) 并发性和并行性
+* [Crypto](#crypto) 加密
+* [Database](#database) 数据库
+* [Data Structures](#data-structures) 数据结构
+* [Debugging](#debugging) 调试
+* [Documentation Generation](#documentation-generation) 文档生成
+* [Editors](#editors) 编辑者
+* [Embeddable Scripting Engines](#embeddable-scripting-engines) 嵌入式脚本引擎
+* [Frameworks](#frameworks) 框架
+* [Game Programming](#game-programming) 游戏编程
+* [Graphics](#graphics) 图形
+* [Graphical User Interface](#graphical-user-interface) 图形用户界面
+* [Hashing](#hashing) 散列
+* [Learning, Reference and Tutorials](#learning-reference-and-tutorials) 学习、参考和教程
+  * [Reference resources online](#reference-resources-online) 在线参考资源
+  * [Beginner resources online](#beginner-resources-online) 初学者在线资源
+  * [Intermediate resources online](#intermediate-resources-online) 在线中间资源
+  * [Advanced resources online](#advanced-resources-online) 在线高级资源
+  * [Reference books](#reference-books) 参考书
+  * [Beginner books](#beginner-books) 初学者书籍
+  * [Intermediate books](#intermediate-books) 中级书籍
+  * [Advanced books](#advanced-books) 高级书籍
+* [Lexing and Parsing](#lexing-and-parsing) 词法与句法分析
+* [Memory Management](#memory-management) 内存管理
+* [Multimedia](#multimedia) 多媒体
+* [Networking and Internet](#networking-and-internet) 网络和互联网
+* [Numerical](#numerical) 数值
+* [Profiling](#profiling) 剖析
+* [Regex](#regex) 正则表达式
+* [Serialization](#serialization) 序列化
+* [Source Code Collections](#source-code-collections) 源代码集合
+* [Standard Libraries](#standard-libraries) 标准库
+  * [Template Libraries](#template-libraries) 模板库
+* [String Manipulation](#string-manipulation) 字符串操作
+* [Structured File Processing](#structured-file-processing) 结构化文件处理
+	* [CSV](#csv) CSV
+	* [JSON](#json) JSON
+	* [INI](#ini) INI
+	* [Others](#others) 其他
+	* [XML](#xml) XML
+	* [YAML](#yaml) YAML
+* [Testing](#testing) 测试
+* [Text Editor Extensions](#text-editor-extensions) 文本编辑器扩展
+* [Tools](#tools) 工具
+* [Utilities](#utilities) 公用事业
+* [Web Frameworks](#web-frameworks) Web框架
+* [Windows Environments](#windows-environments) Windows环境
 
 ## AI ##
-计算机视觉、神经网络、机器学习和其他类似的东西，基本上，如果你的大学称之为人工智能，它就住在这里。
+计算机视觉、神经网络、机器学习和其他类似的东西。基本上，如果你的大学称之为AI，它就住在这里。
 
 * [ccv][195] - 基于C/缓存/核心计算机视觉库; 现代计算机视觉。[``BSD-3-Clause``][BSD-3-Clause]
 * [Cranium][525] - C99中的便携式，仅标题ANN库。[``MIT``][MIT]
@@ -106,7 +106,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 
 * [blosc][445] - 非常快速，多线程，元压缩器库。各种许可证，都是开源的。
 * [Brotli][24] - 通用无损压缩算法库。具有与DEFLATE相当的速度，但压缩比要高得多。[''MIT''][麻省理工学院]。
-* [clzip][432] - C版高质量数据压缩器[Lzip][433] (LZMA  implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [clzip][432] - C版高质量数据压缩器[Lzip][433] (LZMA   implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CRoaring][481] - C实现[Roaring bitmaps][482]. [``Apache-2.0``][Apache-2.0]
 * [FiniteStateEntropy][2] - 为现代cpu优化的两个高效压缩编解码器。[``BSD-2-Clause``][BSD-2-Clause]
 * [DENSITY][506] - 超快速压缩库。[``BSD-3-Clause``][BSD-3-Clause]
@@ -147,7 +147,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [mill][352] - Go风格的并发性。[``MIT``][MIT]
 * [oclkit][311] - 双文件OpenCL包装器。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [OCL-MLA][312] - OpenCL中级抽象。[``BSD-3-Clause``][BSD-3-Clause]
-* [OpenMP][37] - 一组实用程序旨在允许代码轻松并行化。标准 (许可不适用)。
+* [OpenMP][37] - 为便于代码并行化而设计的杂注集。标准 (许可不适用)。
 * [Open MPI][284] - 消息传递接口实现。[``BSD-3-Clause``][BSD-3-Clause]
 * [pal][459] - 针对数学、并行处理和数据移动的优化库。[``Apache-2.0``][Apache-2.0]
 * [pth][180] - 用于多个执行线程的非抢占式基于优先级的调度的便携式实现。[``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -155,7 +155,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [TinyCThread][115] - C11线程API的可移植的小型实现。[``Zlib``][Zlib]
 
 ## Crypto ##
-主要是众所周知的密码算法或协议的库实现。
+主要是众所周知的加密算法或协议的库实现。
 
 * [GNU SASL][160] - 实现了简单的身份验证和安全层以及一些常见的SASL机制。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [GnuTLS][112] - 安全通信库，实现SSL，TLS和DTLS。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -165,7 +165,7 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [libsodium][198] - 现代和易于使用的加密库。[``MIT``][MIT]
 * [libtomcrypt][299] - 相当全面，模块化和便携式加密工具包。公共领域。
 * [mbed TLS][291] - 另一个加密实现。[``Apache-2.0``][Apache-2.0]
-* [MIRACL][480] - 多精度整数和有理算术密码库; 椭圆曲线密码的SDK。[``AGPL-3.0-or-later``][AGPL-3.0-or-later]
+* [MIRACL][480] - 多精度整数和有理算术加密库; 用于椭圆曲线加密的SDK。[``AGPL-3.0-or-later``][AGPL-3.0-or-later]
 * [retter][507] - 收集与密码学和安全性相关的哈希函数，密码，工具，库和资料。公共领域。
 * [s2n][359] - C99实现了TLS/SSL协议，旨在简单，快速且以安全性为优先。[``Apache-2.0``][Apache-2.0]
 * [sphlib][526] - 各种哈希函数的一组实现，包括几个加密函数。[``MIT``][MIT]
@@ -173,9 +173,9 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 * [bfish][598] - 一个包括C99 Blowfish ECB加密库。公共领域。
 
 ## Database ##
-具有C api的数据库和数据存储。
+使用C api的数据库和数据存储。
 
-* [BerkeleyDB][380] - 用于键值数据的高性能嵌入式数据库的库[``AGPL-3.0-only``][AGPL-3.0-only]
+* [BerkeleyDB][380] - 用于键值数据的高性能嵌入式数据库的库。[``AGPL-3.0-only``][AGPL-3.0-only]
 * [EJDB2][568] - 可嵌入的JSON数据库引擎。[``MIT``][MIT]
 * [Groonga][524] - 带全文搜索的列式存储。[``LGPL-2.1-only``][LGPL-2.1-only]
 * [Hiredis][201] - Redis的简约客户端库。[``BSD-3-Clause``][BSD-3-Clause]
@@ -193,14 +193,14 @@ C好东西的精选清单。这个列表只包含 * * [open source][13] 代码 (
 ## Data Structures ##
 
 * [C-Macro-Collections][550] - 使用宏生成简单和通用的数据结构。[``MIT``][MIT]
-* [CLIST][371] - 简单和轻量级[dynamic array][25] implementation.  [``BSD-2-Clause``][BSD-2-Clause]
+* [CLIST][371] - 简单和轻量级[dynamic array][25] implementation.   [``BSD-2-Clause``][BSD-2-Clause]
 * [Collections-C][406] - 通用数据结构库。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [ds][541] - 常见的数据结构和算法。[``MIT``][MIT]
 * [igraph][544] - 图形处理库。[``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [kdtree][337] - 使用KD树的简单库。[``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - 包含一系列自平衡二叉树的库。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libcdada][585] - C (C后端) 中用于基本数据结构 (列表，集合，映射，队列...) 的小型，可移植，无宏库。[``BSD-2-Clause``][BSD-2-Clause]
-* [liblfds][411] - 便携式无锁数据结构库公共领域 (更确切地说，无论您想要什么许可证)。
+* [liblfds][411] - 可移植的无锁数据结构库。公共领域 (更确切地说，任何你想要的许可证)。
 * [libsrt][305] - 软、硬实时数据结构[''BSD-3-Clause''][BSD-3-Clause]。
 * [list.h][538] - 单链和双链表函数的实现。[``GPL-3.0-only``][GPL-3.0-only]
 * [M\*LIB][350] - 库为泛型，但类型安全的C容器。实现为仅标头。[``BSD-2-Clause``][BSD-2-Clause]
@@ -242,8 +242,8 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [KDevelop][44] - KDE IDE。[``GPL-2.0-only``][GPL-2.0-only]
 * [zinjaI][578] - 简单，轻量级和功能丰富的IDE。[``GPL-3.0-only``][GPL-3.0-only]
 
-##嵌入式脚本引擎
-当C不是正确的解决方案时，或者当您需要更动态的配置引擎时:
+# # 可嵌入的脚本引擎
+当C不是正确的解决方案，或者当你需要一个更动态的配置引擎:
 
 * [Duktape][591] - 嵌入式Javascript引擎，专注于可移植性和紧凑的足迹 [''MIT''][MIT]。
 * [MetaCall][607] - 跨平台多语言运行时，支持NodeJS，JavaScript，TypeScript，Python，Ruby，C #，Wasm，Java，Cobol等。[``Apache-2.0``][Apache-2.0]
@@ -298,10 +298,10 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [SDL2][50] - 跨平台库，旨在通过OpenGL提供对音频，键盘，鼠标，操纵杆和图形硬件的低级访问。[``Zlib``][Zlib]
 * [sdl-gpu][457] - 高性能的现代2D图形库。基于SDL。[``MIT``][MIT]
 * [SIGIL][429] - 声音，输入和图形集成库; 一个简单的替代其他库做所有这些事情。各种许可证，都是开源的。
-* [uastar][535] - 最小A \ * 实现。[``ZLib``][Zlib]
+* [uastar][535] - 最小A \*实施。[``ZLib``][Zlib]
 
 ## Graphics ##
-C中的图形的编程操作; 如果你想做一个GUI，图形用户界面部分有你需要的。
+C中图形的编程操作; 如果要制作GUI，则图形用户界面部分具有所需的内容。
 
 * [AssetKit][571] 🎨基于COLLADA/glTF规格的3D资产进口商/出口商/实用库[``MIT``][MIT]
 * [Cairo][384] - 2D图形库。[''LGPL-2.1-only''][LGPL-2.1-only] 或 [''MPL-1.1''][385]。
@@ -312,11 +312,11 @@ C中的图形的编程操作; 如果你想做一个GUI，图形用户界面部�
 * [libcaca][366] - 用于基于终端的接口的ASCII渲染器。[``WTFPL``][WTFPL]
 * [libgd][402] - 由程序员动态创建图像的库。[``MIT``][MIT]
 * [libimagequant][300] - 小型便携式库，用于将RGBA图像高质量转换为8位索引彩色图像。[``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libjpeg-turbo][193] - 更快的图书馆读写JPEG文件。[各种许可证][194]。
+* [libjpeg-turbo][193] - 用于读取和写入JPEG文件的更快的库。[各种许可证][194]。
 * [libpng][382] - 巴布亚新几内亚官方参考图书馆。[``Libpng``][Libpng]
 * [libRSVG][417] - 库使用Cairo渲染SVG文件。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libsixel][17] - 库实现SIXEL协议，允许在您的终端漂亮的图形。[``MIT``][MIT]
-* [libspng][68] - 用于读取和写入PNG文件的更简单的界面。[``BSD-2-Clause``][BSD-2-Clause]
+* [libspng][68] - 一个更简单的读写PNG文件的界面。[``BSD-2-Clause``][BSD-2-Clause]
 * [libvips][511] - 图像处理库。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libxmi][174] - 用于栅格化2D矢量图形的函数库。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lightmapper][444] - 用于光照贴图烘焙的单文件库，使用现有的OpenGL渲染器。公共领域。
@@ -341,7 +341,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [luigi][614] - Win32，X11和Essence的准系统单标题GUI库。[``MIT``][MIT]
 
 ## Hashing ##
-* 非加密目的的哈希函数实现。加密哈希可以在Crypto部分找到。
+的哈希函数实现*非*-加密目的。加密哈希可以在Crypto部分找到。
 
 * [CLHash][495] - 库实现可笑的快速CLHash哈希函数。仅适用于Intel Haswell或更新版本。[``Apache-2.0``][Apache-2.0]
 * [HighwayHash][527] - 快速，强大，SIMD-使用哈希函数。还包含SipHash的实现 (尽管速度较慢)。[``Apache-2.0``][Apache-2.0]
@@ -444,7 +444,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [re2c][34] - Lexer生成器，生产快速Lexer，可以访问其内部。公共领域。
 
 ## Memory Management ##
-无论是不同的，更快的malloc还是直接的垃圾收集，与管理C内存有关的任何事情都在这里。
+无论是不同的，更快的malloc还是直接的垃圾收集，任何与管理C内存有关的事情都在这里。
 
 * [Boehm GC][125] - C的垃圾收集。各种许可证，都是开源的。
 * [jemalloc][293] - Malloc实现，强调避免碎片和可扩展的并发支持。[``BSD-2-Clause``][BSD-2-Clause]
@@ -452,7 +452,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libcsptr][66] - C的智能指针。[``MIT``][MIT]
 * [rpmalloc][126] - 线程缓存，快速内存分配器，在32字节边界上自然对齐。公共领域。
 * [talloc][353] - 具有析构函数的分层引用计数内存池系统。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [tlsf][531] - 两级隔离Fit分配器; 一种通用的动态内存分配器，旨在满足实时要求。[Up-to-date  implementation][532]. [``BSD-3-Clause``][BSD-3-Clause]
+* [tlsf][531] - 两级隔离Fit分配器; 一种通用的动态内存分配器，旨在满足实时要求。[Up-to-date   implementation][532]. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Multimedia ##
 
@@ -460,7 +460,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [FFMPEG][63] - 完整的跨平台解决方案，用于记录，转换和流式传输音频和视频。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [GStreamer][123] - 视听媒体框架。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libmpv][348] - 音乐播放库。[``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [libsndfile][458] - 用于读取和写入声音文件的库。支持多种格式。[``LGPL-2.1-only``][LGPL-2.1-only] or  [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libsndfile][458] - 用于读取和写入声音文件的库。支持多种格式。[``LGPL-2.1-only``][LGPL-2.1-only] or   [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libsoundio][372] - 用于跨平台、实时音频输入和输出的库。有一系列的后端。[``MIT``][MIT]
 * [libVLC][556] - 完整的多媒体库，用于音频和视频编码，解码，播放和流式传输。[``GPL-2.0-only``][GPL-2.0-only]
 * [lodepng][69] - 简单的PNG图像解码器和编码器，不需要其他依赖项。[``BSD-3-Clause``][BSD-3-Clause]
@@ -474,13 +474,13 @@ Widget工具包，或以类似方式使用它们的东西。
 * [CHL][422] - C超文本库-用于在C中编写web应用程序的库。[``GPL-3.0-only``][GPL-3.0-only]
 * [czmq][226] - ZeroMQ的高级绑定。[``MPL-2.0``][MPL-2.0]
 * [Dyad.c][554] - 轻量级，简单，异步网络库。[``MIT``][MIT]
-* [GNU adns][155] - 高级，易于使用，具有异步功能的DNS客户端库和实用程序。[``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU adns][155] - 高级，易于使用，异步功能的DNS客户端库和实用程序。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [gumbo-parser][196] - C99中的HTML5解析库。[``Apache-2.0``][Apache-2.0]
 * [H20][127] - 新一代HTTP服务器。[``MIT``][MIT]
 * [llhttp][197] - HTTP请求/响应解析器。[``MIT``][MIT]
 * [ldns][339] - 库来简化DNS编程。[``BSD-3-Clause``][BSD-3-Clause]
 * [libcurl][65] - 客户端URL传输库，支持多种格式。[``curl``][curl]
-* [LibEtPan][222] - 邮件库为IMAP，SMTP，POP和NNTP提供有效的网络。[``BSD-3-Clause``][BSD-3-Clause]
+* [LibEtPan][222] - 邮件库为IMAP，SMTP，POP和NNTP提供了高效的网络。[``BSD-3-Clause``][BSD-3-Clause]
 * [libev][144] - 又一个事件循环。[``BSD-2-Clause``][BSD-2-Clause]
 * [libevent][124] - 网络服务器的事件循环替换。[``BSD-3-Clause``][BSD-3-Clause]
 * [libhttpd][166] - 库向应用程序或嵌入式设备添加基本的web服务器功能。[``GPL-2.0-only``][GPL-2.0-only]
@@ -490,7 +490,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libnl][582] - “Libnl” 是为Netlink协议提供api的库集合 (替代ioctl)。它的主要用途是与linux内核通信，修改网络状态 (接口，路由等)。[``LGPL-2.1-only``][LGPL-2.1-only]
 * [libonion][170] - HTTP服务器库，旨在易于使用。[``Apache-2.0``][Apache-2.0]
 * [libpcap][566] - API提供给各种内核数据包捕获机制。[``BSD-3-Clause``][BSD-3-Clause]
-* [libquickmail][399] - 库旨在为开发人员提供一种从其应用程序发送电子邮件的方法。支持多个收件人/抄送/密件抄送收件人和附件，没有大小限制。[``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libquickmail][399] - 库旨在为开发人员提供一种从其应用程序发送电子邮件的方法。支持多个收件人/抄送/密件抄送收件人和附件，无大小限制。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libsagui][172] - 跨平台HTTP服务器库。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libuhttpd][577] - 一个非常灵活，轻量级和完全异步的HTTP服务器库，基于libev和http解析器，用于嵌入式Linux。[``MIT``][MIT]
 * [LibVNCServer][464] - 跨平台库来实现VNC服务器和/或客户端功能。[``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -505,7 +505,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [silgy][579] - C/C项目的异步HTTP(S) 引擎。[``MIT``][MIT]
 * [socket99][203] - BSD套接字API的C99包装。[``ISC``][ISC]
 * [twitc][237] - 与Twitter OAuth API交互的迷你库。[``MIT``][MIT]
-* [uriparser][100] - 严格遵循RFC 3986的URI解析和处理库。[``BSD-3-Clause``][BSD-3-Clause]
+* [uriparser][100] - 严格符合RFC 3986的URI解析和处理库。[``BSD-3-Clause``][BSD-3-Clause]
 * [Wslay][460] - WebSocket库。实现WebSocket协议的版本13，如RFC 6455中所述。[``MIT``][MIT]
 * [zyre][419] - 基于邻近的对等应用程序的框架。[``MPL-2.0``][MPL-2.0]
 
@@ -560,10 +560,10 @@ Widget工具包，或以类似方式使用它们的东西。
 
 * [binn][400] - 二进制序列化格式，意味着紧凑，快速和易于使用。[``Apache-2.0``][Apache-2.0]
 * [c-capnproto][130] - Cap'n Proto序列化协议的实现。[``MIT``][MIT]
-* [cmp][377] - 实施[MessagePack][379] serialization  protocol. [``MIT``][MIT]
-* [flatcc][187] - [FlatBuffers][145] compiler and library.  [``Apache-2.0``][Apache-2.0]
+* [cmp][377] - 实施[MessagePack][379] serialization   protocol. [``MIT``][MIT]
+* [flatcc][187] - [FlatBuffers][145] compiler and library.   [``Apache-2.0``][Apache-2.0]
 * [libavro][140] - Avro数据序列化系统的实现[``Apache-2.0``][Apache-2.0]
-* [mpack][378] - 的另一个实现[MessagePack][379] serialization  protocol. [``MIT``][MIT]
+* [mpack][378] - 的另一个实现[MessagePack][379] serialization   protocol. [``MIT``][MIT]
 * [OPIC][397] - C中的对象持久性; 革命性的序列化框架，具有匹配的磁盘和内存表示形式。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [protobuf-c][129] - Google协议缓冲区的实现。[``BSD-2-Clause``][BSD-2-Clause]
 * [tpl][473] - 小型二进制序列化库。[``MIT``][MIT]
@@ -571,9 +571,9 @@ Widget工具包，或以类似方式使用它们的东西。
 * [pbtools][555] - Google Protocol Buffers C源代码生成器.[``MIT``][MIT]
 
 ## Source Code Collections ##
-小源代码的集合。如果你想要一些大的和集成的东西，请检查框架部分。
+小源代码的集合。如果你想要一些大的和集成的东西，检查框架部分。
 
-* [CCAN][103] - 以Perl的CPAN为模型，这是一个很大的代码集合。完整列表是 [这里][104]。各种许可证，都是开源的。
+* [CCAN][103] - 仿照Perl的CPAN，这是一个很大的代码集合，做东西。完整列表是 [here][104]。各种许可证，都是开源的。
 * [clib][26] - 包管理器的东西。附带一个[bunch of libraries of its own][27]. [``MIT``][MIT]
 * [gnulib][46] - 通用GNU代码的集合。各种许可证，都是开源的。
 * [libdjb][292] - 图书馆做各种事情的集合。(显然) 公共领域。
@@ -592,10 +592,10 @@ Widget工具包，或以类似方式使用它们的东西。
 * [dietlibc][9] - 为尽可能小的二进制文件设计的标准库。[``GPL-2.0-only``][GPL-2.0-only]
 * [glibc][57] - GNU C库; 标准库的实现。[''LGPL-2.1-only''][LGPL-2.1-only]。
 * [musl][10] - 标准库，兼容POSIX 2008和c11。专为静态链接而设计。[``MIT``][MIT]
-* [PDCLib][447] - 公共领域C库。实现了大部分的C99和一些c11。[``CC0-1.0``][CC0-1.0]
+* [PDCLib][447] - 公共领域C库。实现了C99的大部分和c11的一些。[``CC0-1.0``][CC0-1.0]
 * [uClibc-ng][12] - 用于开发嵌入式系统的小型C库。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 
-###模板库
+### 模板库
 
 * [CTL][613] - C容器模板库 (CTL)[``MIT``][MIT]
 
@@ -629,7 +629,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [json-c][8] - 在C中轻松使用JSON。带有一个引用计数的对象模型，并旨在与[RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - 单文件非流式JSON解析器。[``Unlicense``][Unlicense]
 * [parson][32] - 两个文件，C89-compatible JSON解析器。[``MIT``][MIT]
-* [WJElement][77] - 高级JSON操作库，支持JSON架构。[``LGPL-2.0-or-later``][LGPL-2.0-or-later] or  [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [WJElement][77] - 高级JSON操作库，支持JSON架构。[``LGPL-2.0-or-later``][LGPL-2.0-or-later] or   [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [YAJL][60] - 快速流式JSON解析器库。[``ISC``][ISC]
 
 ### INI ###
@@ -684,7 +684,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [utest][386] - 单头单元测试库。[``Unlicense``][Unlicense]
 
 ## Text Editor Extensions ##
-尽管实际上任何体面的程序员的文本编辑器都支持C，但有些扩展使它更加令人愉悦。这些由编辑标记。
+虽然几乎任何体面的程序员的文本编辑器都支持C，但有一些扩展使它更愉快。这些是由编辑标记的。
 
 * [CCompletion][92] - 记事本自动完成插件。适用于Ctags识别的所有标识符。这是一个下载链接。[``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CEDET][250] - Emacs开发环境工具的集合; 旨在为Emacs提供类似IDE的功能。内置。[``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -695,7 +695,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [YouCompleteMe][151] - Vim的代码完成引擎。[``GPL-3.0-only``][GPL-3.0-only]
 
 ## Tools ##
-有用的程序来帮助您编写和调试C代码，这些代码不是 * 编辑器，库或编译器。
+有用的程序来帮助你编写和调试C代码*不*编辑器、库或编译器。
 
 * [Artistic Style][314] - 支持C的快速小型自动源代码格式化程序。[``LGPL-3.0-only``][LGPL-3.0-only]
 * [address-sanitizer][288] - 快速内存错误检测器。[``Apache-2.0``][Apache-2.0]
@@ -703,20 +703,20 @@ Widget工具包，或以类似方式使用它们的东西。
 * [c][276] - 在命令行上一次编译并执行C “脚本”。也有shebang的支持。[``MIT``][MIT]
 * [c99sh][113] - 使用hash-bang运行C文件。[``BSD-2-Clause``][BSD-2-Clause]
 * [cdecl][347] - 在线服务将C声明翻译成英文，反之亦然。公共领域。
-* [cinclude2dot][280] - 图包括使用Graphviz的项目中的依赖关系。[GPL-1.0-or-later][335] or [``GPL-2.0-or-later``][GPL-2.0-or-later] or  [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [cinclude2dot][280] - 图包括使用Graphviz的项目中的依赖关系。[GPL-1.0-or-later][335] or [``GPL-2.0-or-later``][GPL-2.0-or-later] or   [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [ClangCheck][502] - 静态分析工具，旨在与Clang一起使用。[``NCSA``][NCSA]
 * [conan.io][304] - C的包管理器的东西。[''MIT''][麻省理工学院]。
-* [Cppcheck][501] - 静态分析工具。尽管名称，但与C配合良好。[``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Cppcheck][501] - 静态分析工具。尽管有这个名字，但与C配合得很好。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Glade][328] - RAD工具，可以快速开发GTK gui。[``GPL-2.0-only``][GPL-2.0-only]
 * [GMSL][331] - GNU制作标准库; GNU制作的附加功能集合。[``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Global][330] - 源代码标记工具。[``GPL-3.0-only``][GPL-3.0-only]
 * [GPP][269] - 通用预处理器。比C预处理器更通用，但比m4更灵活。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [Highlight][333] - 将源代码转换为带有突出显示的格式化文本。[``GPL-3.0-only``][GPL-3.0-only]
-* [include-what-you-use][289] - 帮助找到不必要的内含物，并提出修复建议。基于LLVM/Clang (并且仅适用于它)。[``NCSA``][NCSA]
+* [include-what-you-use][289] - 帮助找到不必要的内含物，并提出修复它们的建议。基于LLVM/Clang (并且仅适用于它)。[``NCSA``][NCSA]
 * [incbin][592] - 轻松地在C/C应用程序中包含二进制文件[``Unlicense``][Unlicense]
 * [indent][315] - 自动格式化C源代码，使其更易于阅读。也从一种样式的源转换为另一种样式。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [SMACK][500] - 模块化软件验证工具链和独立的软件验证程序。目前仅适用于使用Clang编译的程序。[``MIT``][MIT]
-* [unifdef][290] - 删除 # ifdef和 # if指令及其分隔文本，而不触及文件的任何其他部分。[``BSD-3-Clause``][BSD-3-Clause] or  [``BSD-2-Clause``][BSD-2-Clause]
+* [unifdef][290] - 删除 # ifdef和 # if指令及其分隔文本，而不触及文件的任何其他部分。[``BSD-3-Clause``][BSD-3-Clause] or   [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Utilities ##
 任何不适合其他地方的东西的 “全能” 类别。
@@ -733,20 +733,20 @@ Widget工具包，或以类似方式使用它们的东西。
 * [CRIU][440] - 用户空间中的检查点/恢复; 一个软件工具 (带有C API)，用于将正在运行的应用程序 “冻结” 到磁盘，然后恢复它。[``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
 * [D-Bus][430] - 简单的方式为应用程序互相交谈。[``AFL-2.1``][AFL-2.1] or [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [Discount][438] - Markdown解析器的简单实现。[``BSD-3-Clause``][BSD-3-Clause]
-* [dlx][388] - 实施[Knuth's Algorithm X][389], with example  solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [dlx][388] - 实施[Knuth's Algorithm X][389], with example   solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [docopt.c][270] - 命令行选项解析器的实现。[``MIT``][MIT]
 * [dyncall][281] - 另一个外部函数接口库。[``MIT``][MIT]
 * [GNU FreeIPMI][158] - 带内和带外IPMI实现。[``GPL-3.0-only``][GPL-3.0-only]
 * [GNU gperf][351] - 完美的哈希函数生成器，给定一个字符串列表。输出C代码。[``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [GNU Libffcall][162] - 用于构建外部函数接口的库的集合。[``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [GNU Libffcall][162] - 用于构建外函数接口的库的集合[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Hoedown][405] - 完全符合标准，支持扩展，UTF-8感知，快速降价解析器。[``MIT``][MIT]
 * [Kitsune][355] - 用于动态软件更新的高效通用框架。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libCello][96] - 向C引入高级编程的库。[``BSD-3-Clause``][BSD-3-Clause]
 * [libcmark][436] - 用于解析Markdown的CommonMark方言的库。[``BSD-2-Clause``][BSD-2-Clause]
-* [libcoap][136] - 实施[Constrained Application Protocol][117].  [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
+* [libcoap][136] - 实施[Constrained Application Protocol][117].   [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
 * [libcox][373] - 允许跨不同操作系统的跨平台系统调用和标准实用程序的库。[``BSD-2-Clause``][BSD-2-Clause]
 * [libffi][128] - 可移植的外函数接口库。[``MIT``][MIT]
-* [libgeohash][499] - Geohash算法的纯C ++ 实现[``BSD-3-Clause``][BSD-3-Clause]
+* [libgeohash][499] - Geohash算法的纯C实现。[``BSD-3-Clause``][BSD-3-Clause]
 * [libgit2][61] - Git核心方法的可移植实现，作为可重入可链接库提供。[自定义许可证][41]。
 * [libgss][161] - 通用安全服务。[``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libimobiledevice][354] - 跨平台协议库，用于与iThings通信。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
@@ -755,10 +755,10 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libtrading][455] - 实现与交易所，暗池和其他交易场所进行通信的网络协议。支持FIX，FIX/FAST和许多专有协议。[``BSD-2-Clause``][BSD-2-Clause]
 * [libusb][306] - 提供对USB设备的通用访问。[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libuv][56] - 跨平台异步I/O。[``MIT``][MIT]
-* [libvldmail][3] - 您友好的电子邮件验证库。没有外部依赖 (甚至没有regexps)。[``WTFPL``][WTFPL]
+* [libvldmail][3] - 您友好的电子邮件验证库。没有外部依赖关系 (甚至不是regexp)。[``WTFPL``][WTFPL]
 * [linenoise][504] - 小，独立的替代readline和libedit。[``BSD-2-Clause``][BSD-2-Clause]
 * [libXDGdirs][589] - XDG基目录规范的实现[``MIT``][MIT]
-* [MegaMimes][31] - 库，用于获取[MIME][30] types of a file.  [``MIT``][MIT]
+* [MegaMimes][31] - 库，用于获取[MIME][30] types of a file.   [``MIT``][MIT]
 * [ncurses][178] - 彩色终端UI库。[``MIT``][MIT]
 * [netbsd-curses][494] - ncurses的简化和小版本，具有相同的界面。[``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - 适用于可扩展服务器端和网络应用程序的超轻软件平台 (请考虑适用于C程序员的node.js)。[``GPL-2.0-only``][GPL-2.0-only]
@@ -777,7 +777,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Tulip Indicators][449] - 用于对财务数据进行技术分析的函数库。[``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [whereami][167] - 一个文件库，用于在文件系统上查找当前可执行文件。[``WTFPL``][WTFPL]
 * [XLSX I/O][344] - 用于阅读和写作的跨平台库。xlsx文件。[``MIT``][MIT]
-* [xlsx_drone][596] - 快速Microsoft Excel的 *.xlsx阅读器。[''MIT''][MIT]
+* [xlsx_drone][596] - 快速的Microsoft Excel*。xlsx读取器。[''MIT''][MIT]
 * [zlog][437] - 可靠，纯C日志库。[``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - ZeroMQ的协议框架。[``MIT``][MIT]
 * [Metalang99][603] - 全面的预处理器元编程。[``MIT``][MIT]
