@@ -7,66 +7,62 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 
 ** 一个重要的注意事项:** 这个项目做* 不* 索引任何与C相关的; 仅纯C的东西被认为是。
 
-** 贡献者注意事项:** 如果您想提出拉取请求，请阅读[this](CONTRIBUTING.md)首先。
+** 贡献者注意事项:** 如果您想提出请求，请阅读[this](CONTRIBUTING.md)首先。
 
 ## 内容
 
-- [Awesome C](#Awesome-C)
-  - [内容](#内容)
-  - [人工智能](#人工智能)
-  - [基准测试](#基准测试)
-  - [构建系统](#构建系统)
-  - [编译器](#编译器)
-  - [压缩](#压缩)
-  - [并发性和并行性](#并发性和并行性)
-  - [加密](#加密)
-  - [数据库](#数据库)
-  - [数据结构](#数据结构)
-  - [调试](#调试)
-  - [文档生成](#文档生成)
-  - [编辑者](#编辑者)
-  - [嵌入式脚本引擎](#嵌入式脚本引擎)
-  - [框架](#框架)
-  - [游戏编程](#游戏编程)
-  - [图形](#图形)
-  - [图形用户界面](#图形用户界面)
-  - [散列](#散列)
-  - [学习、参考和教程](#学习、参考和教程)
-  - [在线参考资源](#在线参考资源)
-  - [初学者在线资源](#初学者在线资源)
-  - [在线中间资源](#在线中间资源)
-  - [在线高级资源](#在线高级资源)
-  - [参考书](#参考书)
-  - [初学者书籍](#初学者书籍)
-  - [中级书籍](#中级书籍)
-  - [高级书籍](#高级书籍)
-  - [词法与句法分析](#词法与句法分析)
-  - [内存管理](#内存管理)
-  - [多媒体](#多媒体)
-  - [网络和互联网](#网络和互联网)
-  - [数值](#数值)
-  - [剖析](#剖析)
-  - [PDF](#PDF)
-  - [正则表达式](#正则表达式)
-  - [序列化](#序列化)
-  - [源代码集合](#源代码集合)
-  - [标准库](#标准库)
-  - [模板库](#模板库)
-  - [字符串操作](#字符串操作)
-  - [结构化文件处理](#结构化文件处理)
-  - [CSV](#CSV)
-  - [JSON](#JSON)
-  - [INI](#INI)
-  - [其他](#其他)
-  - [XML](#XML)
-  - [YAML](#YAML)
-  - [信号处理](#信号处理)
-  - [测试](#测试)
-  - [文本编辑器扩展](#文本编辑器扩展)
-  - [工具](#工具)
-  - [公用事业](#公用事业)
-  - [Web框架](#Web框架)
-  - [Windows环境](#Windows环境)
+* [人工智能](#人工智能)
+* [基准测试](#基准测试)
+* [构建系统](#构建系统)
+* [编译器](#编译器)
+* [压缩](#压缩)
+* [并发性和并行性](#并发性和并行性)
+* [加密](#加密)
+* [数据库](#数据库)
+* [数据结构](#数据结构)
+* [调试](#调试)
+* [文档生成](#文档生成)
+* [编辑者](#编辑者)
+* [嵌入式脚本引擎](#嵌入式脚本引擎)
+* [框架](#框架)
+* [游戏编程](#游戏编程)
+* [图形](#图形)
+* [图形用户界面](#图形用户界面)
+* [散列](#散列)
+* [学习、参考和教程](#学习、参考和教程)
+  * [在线参考资源](#在线参考资源)
+  * [初学者在线资源](#初学者在线资源)
+  * [在线中间资源](#在线中间资源)
+  * [在线高级资源](#在线高级资源)
+  * [参考书](#参考书)
+  * [初学者书籍](#初学者书籍)
+  * [中级书籍](#中级书籍)
+  * [高级书籍](#高级书籍)
+* [词法与句法分析](#词法与句法分析)
+* [内存管理](#内存管理)
+* [多媒体](#多媒体)
+* [网络和互联网](#网络和互联网)
+* [数值](#数值)
+* [剖析](#剖析)
+* [正则表达式](#正则表达式)
+* [序列化](#序列化)
+* [源代码集合](#源代码集合)
+* [标准库](#标准库)
+  * [模板库](#模板库)
+* [字符串操作](#字符串操作)
+* [结构化文件处理](#结构化文件处理)
+  * [CSV](#CSV)
+  * [JSON](#JSON)
+  * [INI](#INI)
+  * [其他](#其他)
+  * [XML](#XML)
+  * [YAML](#YAML)
+* [测试](#测试)
+* [文本编辑器扩展](#文本编辑器扩展)
+* [工具](#工具)
+* [公用事业](#公用事业)
+* [Web框架](#Web框架)
+* [Windows环境](#Windows环境)
 ## 人工智能
 
 计算机视觉、神经网络、机器学习和其他类似的东西。基本上，如果你的大学称之为AI，它就住在这里。
@@ -83,7 +79,7 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 
 比较跨不同芯片/系统架构的各种子系统的性能。
 
-* [b63](https://github.com/okuvshynov/b63)-用于C的轻量级微型基准测试工具。[](https://spdx.org/licenses/Apache-2.0.html)
+* [b63](https://github.com/okuvshynov/b63)-用于C的轻量级微基准测试工具。[](https://spdx.org/licenses/Apache-2.0.html)
 ## 构建系统
 
 在C中自动构建和测试项目的工具。
@@ -105,7 +101,7 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [Clang](https://clang.llvm.org/)-LLVM的编译器。支持c11。[](https://spdx.org/licenses/NCSA.html)
 * [cproc](https://git.sr.ht/~mcf/cproc)-使用QBE作为后端的C11编译器。[](https://spdx.org/licenses/ISC.html)
 * [distcc](https://github.com/distcc/distcc)-允许构建在几个之间分发的程序机器。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
-* [Firm](https://pp.ipd.kit.edu/firm/)-提供基于图形的中间库表示、优化和汇编代码生成适用于编译器。带有一个示例C前端在相同的执照。[](https://spdx.org/licenses/LGPL-2.1-only.html)
+* [Firm](https://pp.ipd.kit.edu/firm/)-提供基于图形的中间库表示、优化和汇编代码生成适用于编译器。附带了一个示例C前端下相同执照。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [GCC](https://gcc.gnu.org/)-提供C编译器作为其编译器集的一部分。支架C11。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [PCC](http://pcc.ludd.ltu.se/)-古老的编译器.支持c99。[Various licenses](http://pcc.ludd.ltu.se/licenses/),所有开源。
 ## 压缩
@@ -122,12 +118,12 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [huffandpuff](https://github.com/adamierymenko/huffandpuff)-最小的霍夫曼编码器和解码器。公共领域。
 * [libzip](https://github.com/maxim2266/str)-用于读取，创建和修改zip存档的C库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libbzip2](http://www.bzip.org/)-无专利，高质量的数据压缩库。[](https://spdx.org/licenses/BSD-4-Clause.html)
-* [Lizard](https://github.com/inikep/lizard)-以前的LZ5; 快速的高效压缩机减压。实现了与zip和zlib相当的压缩比解压速度达到1000MB/s，速度更快。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [Lizard](https://github.com/inikep/lizard)-前身为LZ5; 快速高效压缩机减压。实现了与zip和zlib相当的压缩比解压速度达到1000MB/s，速度更快。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [lz4](http://lz4.github.io/lz4/)-一个非常快速的压缩算法库。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [lzo](http://www.oberhumer.com/opensource/lzo/)-快速数据压缩库。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
-* [pixz](https://github.com/vasi/pixz)-并行，索引xz压缩机。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [shoco](http://ed-von-schleck.github.io/shoco)-小文本字符串的压缩器。[](https://spdx.org/licenses/MIT.html)
-* [SIMDComp](https://github.com/lemire/simdcomp)-使用压缩整数列表的简单库二元包装。在x86上使用SIMD指令。[](https://spdx.org/licenses/BSD-3-Clause.html)
+* [pixz](https://github.com/vasi/pixz)-平行、索引xz压缩机。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [shoco](http://ed-von-schleck.github.io/shoco)-小型文本字符串的压缩器。[](https://spdx.org/licenses/MIT.html)
+* [SIMDComp](https://github.com/lemire/simdcomp)-用于压缩整数列表的简单库二元包装。在x86上使用SIMD指令。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [smaz](https://github.com/antirez/smaz)高效的字符串压缩库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [squash](https://github.com/quixdb/squash)-压缩抽象库，完成一些公用事业。[](https://spdx.org/licenses/MIT.html)
 * [TurboPFor](https://github.com/powturbo/TurboPFor)-最快的整数压缩。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
@@ -136,7 +132,7 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [Zlib](http://zlib.net)-大规模的spiffy但微妙的不显眼的压缩库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libarchive](https://github.com/libarchive/libarchive)-libarchive是一个可移植的，高效的C库，可以读取和写入各种格式的流档案。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [zlib-ng](https://github.com/Dead2/zlib-ng)-Zlib替换与优化 '下一代'系统。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [Zstandard](http://facebook.github.io/zstd/)-快速、无损的压缩算法，目标实时zlib级别或更高压缩率的压缩方案。[](https://spdx.org/licenses/BSD-3-Clause.html)
+* [Zstandard](http://facebook.github.io/zstd/)-快速，无损压缩算法，针对实时zlib级别或更高压缩率的压缩方案。[](https://spdx.org/licenses/BSD-3-Clause.html)
 ## 并发性和并行性
 
 * [cchan](http://repo.hu/projects/cchan/)-用于线程间通道构造的小型库沟通。公共领域。
@@ -150,9 +146,9 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [libhl](https://github.com/xant/libhl)-实现线程安全API来管理一系列数据的库结构。还提供了一些支持功能和结构并发和无锁编程。[](https://spdx.org/licenses/LGPL-3.0-only.html)
 * [liburcu](http://liburcu.org/)-数据同步库，随核心数量。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
 * [mill](http://libmill.org/)-Go风格的并发。[](https://spdx.org/licenses/MIT.html)
-* [oclkit](https://github.com/matze/oclkit)-双文件OpenCL包装器[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [oclkit](https://github.com/matze/oclkit)-双文件OpenCL包装器。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [OCL-MLA](http://tuxfan.github.io/ocl-mla/)-OpenCL中级抽象。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [OpenMP](https://www.openmp.org/)-一套实用程序，旨在允许轻松并行化代码。标准 (许可不适用)。
+* [OpenMP](https://www.openmp.org/)-设计为允许轻松并行化的pragmas集代码。标准 (许可不适用)。
 * [Open MPI](https://github.com/open-mpi/ompi)-消息传递接口实现。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [pal](https://github.com/parallella/pal)-数学，并行处理和数据的优化库动。[](https://spdx.org/licenses/Apache-2.0.html)
 * [pth](https://gnu.org/software/pth/)-基于非抢占式优先级的便携式实现多个执行线程的调度。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
@@ -178,7 +174,7 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [bfish](https://github.com/cjwagenius/bfish)-一个包括C99 Blowfish ECB加密库。公共域。
 ## 数据库
 
-具有C api的数据库和数据存储。
+使用C api的数据库和数据存储。
 
 * [BerkeleyDB](http://www.oracle.com/us/products/database/berkeley-db)-用于高性能嵌入式数据库的库键值数据。[](https://spdx.org/licenses/AGPL-3.0-only.html)
 * [EJDB2](https://ejdb.org/)-可嵌入的JSON数据库引擎。[](https://spdx.org/licenses/MIT.html)
@@ -190,7 +186,7 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [PostgreSQL](https://www.postgresql.org/)-强大的对象关系数据库系统。[](https://spdx.org/licenses/PostgreSQL.html)
 * [Redis](https://redis.io/)-高级键值存储。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [sophia](http://sophia.systems)-现代的，可嵌入的键值数据库。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [sparkey](https://github.com/spotify/sparkey)-简单的常量键/值存储库。设计用于read-具有不常见的大体积插入物的重负载。[](https://spdx.org/licenses/Apache-2.0.html)
+* [sparkey](https://github.com/spotify/sparkey)-简单常量键/值存储库设计用于读取-带有不常见的大容量插入物的重负载。[](https://spdx.org/licenses/Apache-2.0.html)
 * [SQLite](https://www.sqlite.org/)-自包含、无服务器、零配置、事务性SQL数据库引擎。公共领域。
 * [UnQLite](https://unqlite.org/)-自包含、无服务器、零配置、事务性NoSQL引擎。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [WhiteDB](http://whitedb.org/)-轻量级数据库库，完全在main中运行记忆。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
@@ -203,9 +199,9 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 * [igraph](https://igraph.org/)-一个图形处理库。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [kdtree](https://github.com/jtsiomb/kdtree)-使用KD树的简单库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libavl](http://adtinfo.org/libavl.html/index.html)-包含一系列自平衡二进制库树。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
-* [libcdada](https://msune.github.io/libcdada/)-用于基本数据结构的小型，可移植，无宏的库(列表，设置，映射，队列...) 在C (C后端)。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [liblfds](https://liblfds.org/)便携式无锁数据结构库。公共领域(更确切地说，任何你想要的许可证)。
-* [libsrt](https://faragon.github.io/libsrt.html)-软硬实时数据结构。[](https://spdx.org/licenses/BSD-3-Clause.html)。
+* [libcdada](https://msune.github.io/libcdada/)-用于基本数据结构的小型，可移植，无宏库(列表，设置，映射，队列...) 在C (C后端)。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [liblfds](https://liblfds.org/)-便携式无锁数据结构库。公共领域(更确切地说，无论你想要的许可证)。
+* [libsrt](https://faragon.github.io/libsrt.html)-软、硬实时数据结构。[](https://spdx.org/licenses/BSD-3-Clause.html)。
 * [list.h](https://github.com/nbulischeck/list.h)-单链和双链表函数的实现。[](https://spdx.org/licenses/GPL-3.0-only.html)
 * [M*LIB](https://github.com/P-p-H-d/mlib)-用于通用但类型安全的C容器的库。实施为仅标题。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [offbrand](https://github.com/theck01/offbrand_lib)-通用的、引用计数的数据结构的集合。[](https://spdx.org/licenses/MIT.html)
@@ -232,8 +228,8 @@ C好东西的精选清单。此列表包含* 仅* [open source](https://opensour
 ## 文档生成
 
 * [Cxref](http://www.gedanken.org.uk/software/cxref/)-在LaTeX，HTML，RTF或生成文档SGML。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [DocOnce](https://hplgit.github.io/doconce/doc/web/index.html)-适度标记的标记语言，可用于生成一系列格式。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [Doxygen](http://www.doxygen.nl/)-用于从以下位置生成文档的事实上的标准工具注释的源。可以生成大范围的格式。[](https://spdx.org/licenses/GPL-2.0-only.html)
+* [DocOnce](https://hplgit.github.io/doconce/doc/web/index.html)-适度标记的标记语言，可以用来生成一系列格式。[](https://spdx.org/licenses/BSD-3-Clause.html)
+* [Doxygen](http://www.doxygen.nl/)-事实上的标准工具，用于从生成文档注释的源。可以生成大范围的格式。[](https://spdx.org/licenses/GPL-2.0-only.html)
 ## 编辑者
 
 Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑器，看其他地方。此外，无论你使用最有可能支持C反正。
@@ -246,26 +242,26 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [zinjaI](http://zinjai.sourceforge.net/)-简单，轻量级和功能丰富的IDE。[](https://spdx.org/licenses/GPL-3.0-only.html)
 ## 嵌入式脚本引擎
 
-当C不是正确的解决方案时，或者当您需要更动态的配置引擎时:
+当C不是正确的解决方案，或者当你需要一个更动态的配置引擎:
 
 * [Duktape](https://duktape.org/)-可嵌入的Javascript引擎，专注于可移植性和紧凑的足迹[](https://spdx.org/licenses/MIT.html)。
 * [MetaCall](https://github.com/metacall/core)-跨平台的Polyglot运行时，支持NodeJS，JavaScript，TypeScript，Python，Ruby，C #，Wasm，Java，Cobol等。[](https://spdx.org/licenses/Apache-2.0.html)
 ## 框架
 
-提供数据结构和您期望的其他内容的大型库“现代” 标准库。
+提供数据结构和其他你期望的东西的大库“现代” 标准库。
 
 * [APR](http://apr.apache.org/)-Apache便携式运行时; 另一个跨平台实用程序库功能。[](https://spdx.org/licenses/Apache-2.0.html)
 * [C Algorithms](https://fragglet.github.io/c-algorithms)-常用算法和数据结构的集合。[](https://spdx.org/licenses/ISC.html)
-* [CPL](http://www.eso.org/sci/software/cpl/)-通用管道库; 一组设计为全面、高效和强大的软件工具包。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [EFL](https://www.enlightenment.org)-大量有用的数据结构和功能。各种许可证，都是开源的。
-* [GLib](https://wiki.gnome.org/Projects/GLib)-实用功能和结构库，旨在便携，高效，功能强大。[](https://spdx.org/licenses/LGPL-2.1-only.html)
+* [CPL](http://www.eso.org/sci/software/cpl/)-通用管道库; 一组旨在成为全面、高效和强大的软件工具包。[](https://spdx.org/licenses/GPL-2.0-only.html)
+* [EFL](https://www.enlightenment.org)-大量收集有用的数据结构和功能。各种许可证，都是开源的。
+* [GLib](https://wiki.gnome.org/Projects/GLib)-实用功能和结构库，旨在便携、高效、功能强大。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [klib](http://attractivechaos.github.io/klib/#About)-通用算法的小型和轻量级实现数据结构。[](https://spdx.org/licenses/MIT.html)
 * [libcork](http://libcork.readthedocs.io/en/0.14.0/)-实用功能和结构，设计用于资源受限的系统。可以嵌入。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libnih](https://github.com/keybuk/libnih)-轻量级的函数库和结构。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [libU](http://www.koanlogic.com/libu/)基本实用程序的小库，包括内存分配，字符串操作和日志记录。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [PBL](http://www.mission-base.com/peter/source/)-大型实用程序库，具有数据结构，其中其他事情。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
 * [plibsys](https://github.com/saprykin/plibsys)跨平台系统C库。零第三方依赖项，仅使用本机系统调用。[](https://spdx.org/licenses/MIT.html)
-* [qlibc](http://wolkykim.github.io/qlibc)-简单而强大的库，旨在取代GLib，同时专注于小巧轻便。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [qlibc](http://wolkykim.github.io/qlibc)-简单而强大的库，旨在取代油嘴滑舌，同时专注于小而轻。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [sc](https://github.com/tezc/sc)-C的通用库和数据结构。[](https://spdx.org/licenses/MIT.html)
 * [TBOX](https://github.com/waruqi/tbox)-具有大量多平台库能力。[](https://spdx.org/licenses/Apache-2.0.html)
 * [pspsdk](https://github.com/pspdev/pspsdk)-用于PSP自制开发的开源SDK。[Various licences](https://github.com/pspdev/pspsdk/blob/master/LICENSE)。
@@ -274,7 +270,7 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 引擎、库和其他专门用于制作游戏的有用的东西。
 
 * [Allegro](https://liballeg.org)-跨平台，视频游戏开发和多媒体库。[](https://spdx.org/licenses/Zlib.html)
-* [AssetKit](https://github.com/recp/AssetKit)基于COLLADA/glTF规范的3D资产导入器/导出器/util库[](https://spdx.org/licenses/MIT.html)
+* [AssetKit](https://github.com/recp/AssetKit)🎨基于COLLADA/glTF规格的3D资产进口商/出口商/实用库[](https://spdx.org/licenses/MIT.html)
 * [astera](https://github.com/tek256/astera)-C99跨平台2D游戏库[](https://spdx.org/licenses/MIT.html)
 * [cglm](https://github.com/recp/cglm)-优化的OpenGL/图形数学 (glm) 为C。[](https://spdx.org/licenses/MIT.html)
 * [Chipmunk2D](http://chipmunk-physics.net)-快速和轻量级的2D游戏物理库。[](https://spdx.org/licenses/MIT.html)
@@ -285,8 +281,8 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [Epoxy](https://github.com/anholt/libepoxy)用于处理OpenGL函数指针管理的库。[](https://spdx.org/licenses/MIT.html)
 * [exengine](https://github.com/solenum/exengine)-C99中的3D游戏引擎，带有起始模板。[](https://spdx.org/licenses/MIT.html)
 * [Flecs](https://github.com/SanderMertens/flecs)-为C89和C99编写的多线程实体组件系统[](https://spdx.org/licenses/MIT.html)
-* [Freecell Solver](https://github.com/shlomif/fc-solve)-一组库和命令行程序自动解决纸牌接龙和一些类似的变种。[](https://spdx.org/licenses/MIT.html)
-* [FreeGLUT](http://freeglut.sourceforge.net)-替代OpenGL实用工具工具包。允许使用OpenGL上下文创建和管理窗口。[](https://spdx.org/licenses/X11.html)
+* [Freecell Solver](https://github.com/shlomif/fc-solve)-用于的库和命令行程序集自动解决纸牌接龙和一些类似的变种。[](https://spdx.org/licenses/MIT.html)
+* [FreeGLUT](http://freeglut.sourceforge.net)-OpenGL实用工具工具包的替代方案。允许使用OpenGL上下文创建和管理窗口。[](https://spdx.org/licenses/X11.html)
 * [GLFW](https://www.glfw.org/)-用于使用OpenGL创建窗口的多平台库上下文。[](https://spdx.org/licenses/Zlib.html)
 * [ioquake3](https://ioquake3.org)-Quake3引擎，终于释放了。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [kazmath](https://github.com/Kazade/kazmath)-数学库的游戏。[](https://spdx.org/licenses/BSD-2-Clause.html)
@@ -296,7 +292,7 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [Orx](http://orx-project.org)-便携式，轻量级，基于插件，数据驱动，面向2d游戏引擎。[](https://spdx.org/licenses/Zlib.html)
 * [Quake](https://github.com/id-Software/Quake)-地震引擎.[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [Quake2](https://github.com/id-Software/Quake-2)-Quake2引擎。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [raylib](https://www.raylib.com)-简单和易于使用的库来学习视频游戏编程。[](https://spdx.org/licenses/Zlib.html)
+* [raylib](https://www.raylib.com)-简单易用的库学习视频游戏编程。[](https://spdx.org/licenses/Zlib.html)
 * [RetroArch](https://github.com/libretro/RetroArch)-参考前端[libretro](https://www.libretro.com/)。[](https://spdx.org/licenses/GPL-3.0-only.html)
 * [SDL2](https://www.libsdl.org/)-跨平台库，旨在提供对音频，键盘，鼠标，操纵杆和图形硬件通过OpenGL。[](https://spdx.org/licenses/Zlib.html)
 * [sdl-gpu](https://github.com/grimfang4/sdl-gpu)-高性能的现代2D图形库。基于SDL。[](https://spdx.org/licenses/MIT.html)
@@ -306,8 +302,8 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 
 C中的图形的编程操作; 如果你想制作一个GUI，图形用户界面部分有你需要的。
 
-* [AssetKit](https://github.com/recp/AssetKit)基于COLLADA/glTF规范的3D资产导入器/导出器/util库[](https://spdx.org/licenses/MIT.html)
-* [Cairo](http://cairographics.org/)-2D图形库。[](https://spdx.org/licenses/LGPL-2.1-only.html)或[](https://spdx.org/licenses/MPL-1.1.html)。
+* [AssetKit](https://github.com/recp/AssetKit)🎨基于COLLADA/glTF规格的3D资产进口商/出口商/实用库[](https://spdx.org/licenses/MIT.html)
+* [Cairo](http://cairographics.org/)-2D图形库。[](https://spdx.org/licenses/LGPL-2.1-only.html)或者[](https://spdx.org/licenses/MPL-1.1.html)。
 * [cmt](https://github.com/recp/cmt)-C绑定/包装苹果的金属图形框架。[](https://spdx.org/licenses/MIT.html)
 * [giflib](https://sourceforge.net/projects/giflib/)-用于读取和写入gif图像的库。[](https://spdx.org/licenses/MIT.html)
 * [graphene](http://ebassi.github.io/graphene/)-图形数据类型的薄层。[](https://spdx.org/licenses/MIT.html)
@@ -328,7 +324,7 @@ C中的图形的编程操作; 如果你想制作一个GUI，图形用户界面�
 * [nanovg](https://github.com/memononen/nanovg)-在OpenGL之上的反锯齿2D矢量绘图库，用于UI和可视化。[](https://spdx.org/licenses/Zlib.html)
 * [OpenGL](https://www.opengl.org/)-高性能显卡的行业标准，具有本机C绑定。[Various licenses](http://www.sgi.com/tech/opengl/?/license.html)。
 * [PlutoVG](https://github.com/sammycage/plutovg)-一个独立的二维矢量图形库在C[](https://spdx.org/licenses/MIT.html)
-* [SAIL](https://github.com/smoked-herring/sail)-⛵人类缺少的小而快速的图像解码库 (不适用于机器)[](https://spdx.org/licenses/MIT.html)
+* [SAIL](https://github.com/smoked-herring/sail)-⛵人类缺少的小型快速图像解码库 (不适用于机器)[](https://spdx.org/licenses/MIT.html)
 ## 图形用户界面
 
 Widget工具包，或以类似方式使用它们的东西。
@@ -339,7 +335,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [nuklear](https://github.com/Immediate-Mode-UI/Nuklear)-小，C89，单标题小部件工具包。公共领域。
 * [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/)-用于简单对话框的单文件库。兼容与许多其他工具包和操作系统。[](https://spdx.org/licenses/Zlib.html)
 * [Tk](http://www.tcl.tk/)-基本的小部件工具包。Tcl/Tk的一部分。[](https://spdx.org/licenses/TCL.html)
-* [XForms Toolkit](http://xforms-toolkit.org/)-为XWindow设计的小部件工具包系统。[](https://spdx.org/licenses/LGPL-2.1-only.html)
+* [XForms Toolkit](http://xforms-toolkit.org/)-为XWindow设计的小部件工具包制。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [LVGL](https://lvgl.io/)-嵌入式GUI与易于使用的图形元素，美丽的视觉效果和低内存占用。[](https://spdx.org/licenses/MIT.html)
 * [luigi](https://github.com/nakst/luigi)-用于Win32，X11和Essence的准系统单标题GUI库。[](https://spdx.org/licenses/MIT.html)
 ## 散列
@@ -353,7 +349,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [xxHash](http://cyan4973.github.io/xxHash)-非常快速的哈希算法。有32位和64位品种。[](https://spdx.org/licenses/BSD-2-Clause.html)
 ## 学习、参考和教程
 
-学习C编程的一般资源，或一些有用的相关资源到C编程。
+一般学习C编程的资源，或与之相关的有用的东西到C编程。
 
 ### 在线参考资源
 
@@ -432,7 +428,7 @@ Widget工具包，或以类似方式使用它们的东西。
 
 专门用于词法分析 (或词法分析) 和句法分析的库(或解析)。
 
-* [flex](https://github.com/westes/flex)-快速词法分析器生成器。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [flex](https://github.com/westes/flex)-快速词汇分析器生成器。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [GNU Bison](https://www.gnu.org/software/bison/)-通用解析器生成器，用于转换将带注释的上下文无关语法转换为一系列解析器。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [hammer](https://github.com/abiggerhammer/hammer)-二进制格式的解析器组合器。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [mpc](https://github.com/orangeduck/mpc)-解析器组合程序库。[](https://spdx.org/licenses/BSD-2-Clause.html)
@@ -440,7 +436,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [re2c](http://re2c.org/index.html)-词法生成器，生产快速词法分析器，可以访问其内部构件。公共领域。
 ## 内存管理
 
-无论是不同的，更快的malloc或彻底的垃圾收集，任何管理C内存住在这里。
+无论是不同的，更快的malloc或彻底的垃圾收集，任何与管理C内存住在这里。
 
 * [Boehm GC](https://www.hboehm.info/gc/)-C的垃圾收集。各种许可证，都是开源的。
 * [jemalloc](http://jemalloc.net)-Malloc实现，强调避免碎片和可扩展的并发支持。[](https://spdx.org/licenses/BSD-2-Clause.html)
@@ -455,7 +451,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [FFMPEG](https://www.ffmpeg.org/)-完整的跨平台解决方案来记录，转换和流音频和视频。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
 * [GStreamer](https://gstreamer.freedesktop.org/)-音频和视觉媒体的框架。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
 * [libmpv](https://mpv.io)-音乐播放库。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
-* [libsndfile](http://www.mega-nerd.com/libsndfile/)-用于读取和写入声音文件的库。支架许多格式。[](https://spdx.org/licenses/LGPL-2.1-only.html)或[](https://spdx.org/licenses/LGPL-3.0-only.html)
+* [libsndfile](http://www.mega-nerd.com/libsndfile/)-用于读取和写入声音文件的库。支架许多格式。[](https://spdx.org/licenses/LGPL-2.1-only.html)或者[](https://spdx.org/licenses/LGPL-3.0-only.html)
 * [libsoundio](http://libsound.io)-跨平台库，实时音频输入和输出。有一系列的后端。[](https://spdx.org/licenses/MIT.html)
 * [libVLC](https://wiki.videolan.org/LibVLC)-完整的音频和视频多媒体库编码，解码，播放和流媒体。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [lodepng](https://lodev.org/lodepng/)-简单的PNG图像解码器和编码器，不需要其他依赖关系。[](https://spdx.org/licenses/BSD-3-Clause.html)
@@ -481,21 +477,21 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libhttpd](https://www.hughes.com.au/products/libhttpd/)-库将基本的web服务器功能添加到应用程序或嵌入式设备。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [libhv](https://github.com/ithewei/libhv)跨平台事件循环库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libidn](https://gnu.org/software/libidn/)-实现Stringprep，Punycode和IDNA规格。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
-* [libmicrohttpd](https://gnu.org/software/libmicrohttpd/)-小型库，可以很容易地运行HTTP服务器作为另一个应用程序的一部分。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
+* [libmicrohttpd](https://gnu.org/software/libmicrohttpd/)-小型库，易于运行HTTP服务器作为另一个应用程序的一部分。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
 * [libnl](https://www.infradead.org/~tgr/libnl/)-是一个库集合，用于将api提供给Netlink协议 (替代ioctl)。它的主要用途是沟通使用linux内核，修改网络状态 (接口，路由等)。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [libonion](https://www.coralbits.com/libonion/)-HTTP服务器库，旨在易于使用。[](https://spdx.org/licenses/Apache-2.0.html)
 * [libpcap](https://github.com/the-tcpdump-group/libpcap)-API提供给各种内核数据包捕获机制。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [libquickmail](http://sourceforge.net/projects/libquickmail/)-旨在为开发人员提供一种发送方式的库电子邮件从他们的应用程序。支持多个收件人/抄送/密件抄送收件人和无大小限制的附件。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [libquickmail](http://sourceforge.net/projects/libquickmail/)-库旨在为开发人员提供一种发送方式电子邮件从他们的应用程序。支持多个收件人/抄送/密件抄送收件人和无大小限制的附件。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [libsagui](https://risoflora.github.io/libsagui/)-跨平台HTTP服务器库。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [libuhttpd](https://github.com/zhaojh329/libuhttpd)-一个非常灵活，轻量级和完全异步的HTTP服务器基于libev和http解析器的嵌入式Linux库。[](https://spdx.org/licenses/MIT.html)
 * [LibVNCServer](https://github.com/LibVNC/libvncserver)-跨平台库来实现VNC服务器和/或客户端功能。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
-* [libwebsock](https://github.com/JonnyWhatshisface/libwebsock)-易于使用和强大的web套接字库。[](https://spdx.org/licenses/LGPL-3.0-only.html)
+* [libwebsock](https://github.com/JonnyWhatshisface/libwebsock)-易于使用且功能强大的web套接字库。[](https://spdx.org/licenses/LGPL-3.0-only.html)
 * [libzmq](https://github.com/zeromq/libzmq)-核心ZeroMQ库，高性能异步消息库，旨在在分布式或并发应用程序中使用。C API (后端C)[](https://spdx.org/licenses/GPL-3.0-or-later.html)带静态链接异常
 * [lwan](https://lwan.ws)-实验性、可扩展、高性能HTTP服务器。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [mongoose](https://cesanta.com)-嵌入式web服务器。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [MQTT-C](https://github.com/LiamBindle/MQTT-C)-适用于嵌入式系统和pc的便携式MQTT C客户端。[](https://spdx.org/licenses/MIT.html)
 * [nanomsg](https://github.com/nanomsg/nanomsg)-基于C实现的ZeroMQ。[](https://spdx.org/licenses/MIT.html)
-* [NNG](https://nanomsg.github.io/nng/)-nanomsg-下一代-轻量级无代理消息传递。[](https://spdx.org/licenses/MIT.html)
+* [NNG](https://nanomsg.github.io/nng/)-nanomsg-下一代-轻量级无经纪人消息。[](https://spdx.org/licenses/MIT.html)
 * [oSip](https://gnu.org/software/osip/)-没有额外的SIP实施依赖关系。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
 * [silgy](https://github.com/silgy/silgy)-用于C/C项目的异步HTTP(S) 引擎。[](https://spdx.org/licenses/MIT.html)
 * [socket99](https://github.com/silentbicycle/socket99)-BSD套接字API的C99包装。[](https://spdx.org/licenses/ISC.html)
@@ -515,20 +511,20 @@ Widget工具包，或以类似方式使用它们的东西。
 * [FFTW](http://www.fftw.org/)-西方最快的傅立叶变换; 高度优化的快速傅立叶变换例程。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [FLINT](http://flintlib.org/)-数论的快速库; 支持算术的库有数字、多项式、幂级数和矩阵，其中其他人。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [GLPK](https://gnu.org/software/glpk/)-GNU线性编程工具包; 用于解决大规模线性规划、混合整数规划等相关问题。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
-* [GMP](https://gmplib.org/)-GNU多精度算术库; 用于任意精度算术。[](https://spdx.org/licenses/GPL-2.0-only.html)或[](https://spdx.org/licenses/LGPL-3.0-only.html)
+* [GMP](https://gmplib.org/)-GNU多精度算术库; 用于任意精度算术。[](https://spdx.org/licenses/GPL-2.0-only.html)或者[](https://spdx.org/licenses/LGPL-3.0-only.html)
 * [GNU MPC](http://www.multiprecision.org/mpc/)·复数算术库[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [GNU MPFR](http://mpfr.loria.fr/index.html)-任意精度浮点库算术。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [GNU MPRIA](https://gnu.org/software/mpria/)-用于多精度有理的便携式数学库区间算术。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [GSL](https://www.gnu.org/software/gsl/)-GNU科学库; 一个复杂的数字库。[](https://spdx.org/licenses/GPL-3.0-only.html)。
 * [KISS FFT](https://sourceforge.net/projects/kissfft/)简单的快速傅立叶变换库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [LAPACKE](http://www.netlib.org/lapack/lapacke.html)-接口到[LAPACK](http://www.netlib.org/lapack/)。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [LibTomMath](http://www.libtom.net/LibTomMath/)-便携式，数论，多精度整数库。支持代数、数字操作、模块化归约和各种数论例程。公共领域。
-* [LibTomPoly](http://www.libtom.net/LibTomPoly/)-多项式相关的数学库。公共领域。
+* [LibTomMath](http://www.libtom.net/LibTomMath/)-便携式、数论、多精度整数库。支持代数、数字操作、模块化归约和各种数论例程。公共领域。
+* [LibTomPoly](http://www.libtom.net/LibTomPoly/)-多项式相关数学库。公共领域。
 * [PARI/GP](http://pari.math.u-bordeaux.fr/)-数论的计算机代数系统; 包括一个编译器到C。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [PETSc](http://www.mcs.anl.gov/petsc/)-一套可扩展并行的数据结构和例程用偏微分建模的科学应用的解决方案方程式。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [SCS](https://github.com/cvxgrp/scs)-分裂圆锥求解器; 一个数值优化包求解大规模凸锥问题。[](https://spdx.org/licenses/MIT.html)
 * [SLEPc](http://slepc.upv.es/)-用于解决大型稀疏特征值的库并行计算机上的问题。[](https://spdx.org/licenses/LGPL-3.0-only.html)
-* [TomsFastMath](http://www.libtom.net/TomsFastMath/)-一套优化的数学运算 (汇编)，适合加密使用。公共领域。
+* [TomsFastMath](http://www.libtom.net/TomsFastMath/)-一套优化的数学运算 (在装配)，适合加密使用。公共领域。
 * [Yeppp!](https://bitbucket.org/MDukhan/yeppp)-快速，SIMD优化的数学库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 ## 剖析
 
@@ -538,11 +534,11 @@ Widget工具包，或以类似方式使用它们的东西。
 * [perf](https://perf.wiki.kernel.org/index.php/Main_Page)-基于linux内核的分析器，具有很多功能。[](https://spdx.org/licenses/GPL-2.0-only.html)
 ## PDF
 
-* [pdfio](https://github.com/michaelrsweet/pdfio)-PDFio是一个简单的C库，用于读写pdf文件。[](https://spdx.org/licenses/Apache-2.0.html)
+* [pdfio](https://github.com/michaelrsweet/pdfio)PDFio是一个简单的C库，用于读取和写入pdf文件。[](https://spdx.org/licenses/Apache-2.0.html)
 ## 正则表达式
 
 * [Onigmo](https://github.com/k-takata/Onigmo)-Oniguruma的叉子，支持更高级的regexps。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [Oniguruma](https://github.com/kkos/oniguruma)-支持广泛编码的正则表达式库，以及整合了许多面向安全的修补程序。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [Oniguruma](https://github.com/kkos/oniguruma)-正则表达式库支持广泛的编码，和整合了许多面向安全的修补程序。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [PCRE](http://www.pcre.org/)-实现与Perl 5。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [SLRE](https://github.com/cesanta/slre)-超轻正则表达式库; 一个小Perl正则表达式语法子集的实现。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [TRE](https://github.com/laurikari/tre/)-符合POSIX，功能完整的正则表达式库。[](https://spdx.org/licenses/BSD-2-Clause.html)
@@ -566,7 +562,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [CCAN](http://ccodearchive.net/)-以Perl的CPAN为模型，这是一个大的代码集合做的东西。完整列表是[here](http://ccodearchive.net/list.html)。各种许可证，所有开源。
 * [clib](https://github.com/clibs/clib)-一个包管理器的东西。附带a[bunch of libraries of its own](https://github.com/clibs/clib/wiki/Packages)。[](https://spdx.org/licenses/MIT.html)
 * [gnulib](https://www.gnu.org/software/gnulib/)-通用GNU代码的集合。各种许可证，所有开源。
-* [libdjb](http://www.fefe.de/djb/)-收集库做各种事情。(显然)公共领域。
+* [libdjb](http://www.fefe.de/djb/)-库做各种事情的集合。(显然)公共领域。
 * [mmx](https://github.com/vurtun/mmx)-单头库的集合。各种许可证，所有开源。
 * [par](https://github.com/prideout/par)-一堆单文件库。[](https://spdx.org/licenses/MIT.html)
 * [Snippets](https://github.com/DanielGibson/Snippets/)-有用的代码片段和仅标题库。公共领域。
@@ -579,7 +575,7 @@ Widget工具包，或以类似方式使用它们的东西。
 
 * [Bionic](https://github.com/aosp-mirror/platform_bionic)-为Android开发的Google标准库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [cloudlibc](https://github.com/NuxiNL/cloudlibc)-基于概念的标准库[capability-based security](https://en.wikipedia.org/wiki/Capability-based_security)。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [dietlibc](https://www.fefe.de/dietlibc/)-为尽可能小的设计标准库二进制文件。[](https://spdx.org/licenses/GPL-2.0-only.html)
+* [dietlibc](https://www.fefe.de/dietlibc/)-为尽可能小的标准库设计二进制文件。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [glibc](https://www.gnu.org/software/libc/)-GNU C库; 标准的实现库。[](https://spdx.org/licenses/LGPL-2.1-only.html)。
 * [musl](https://musl.libc.org/)-标准库，与POSIX 2008和c11兼容。设计用于静态链接。[](https://spdx.org/licenses/MIT.html)
 * [PDCLib](http://pdclib.e43.eu/)-公共领域C库。实现了大部分的C99和一些C11。[](https://spdx.org/licenses/CC0-1.0.html)
@@ -611,12 +607,12 @@ Widget工具包，或以类似方式使用它们的东西。
 
 * [Jansson](http://www.digip.org/jansson/)-用于编码，解码和操作JSON的库。[](https://spdx.org/licenses/MIT.html)
 * [jfes](https://github.com/NeonMercury/jfes)-嵌入式系统的JSON; 简单的JSON引擎，没有任何依赖关系。[](https://spdx.org/licenses/MIT.html)
-* [jsmn](https://zserge.com/jsmn.html)-简约的JSON解析器[](https://spdx.org/licenses/MIT.html)
+* [jsmn](https://zserge.com/jsmn.html)-简约的JSON解析器。[](https://spdx.org/licenses/MIT.html)
 * [json](https://github.com/recp/json)-简单，低内存-使用JSON解析器。[](https://spdx.org/licenses/MIT.html)
 * [json-c](https://github.com/json-c/json-c)-在C中轻松使用JSON。附带一个引用计数的对象模型，并以符合[RFC 7159](https://tools.ietf.org/html/rfc7159)。[](https://spdx.org/licenses/MIT.html)
 * [json.h](https://github.com/sheredom/json.h)-单文件非流式JSON解析器。[](https://spdx.org/licenses/Unlicense.html)
 * [parson](https://github.com/kgabis/parson)-两个文件，C89-compatible JSON解析器。[](https://spdx.org/licenses/MIT.html)
-* [WJElement](https://github.com/netmail-open/wjelement/)-高级JSON操作库，支持JSON架构。[](https://spdx.org/licenses/LGPL-2.0-or-later.html)或[](https://spdx.org/licenses/LGPL-2.1-or-later.html)或[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
+* [WJElement](https://github.com/netmail-open/wjelement/)-高级JSON操作库，支持JSON架构。[](https://spdx.org/licenses/LGPL-2.0-or-later.html)或者[](https://spdx.org/licenses/LGPL-2.1-or-later.html)或者[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [YAJL](https://lloyd.github.io/yajl/)-快速流JSON解析器库。[](https://spdx.org/licenses/ISC.html)
 ### INI
 
@@ -627,7 +623,7 @@ Widget工具包，或以类似方式使用它们的东西。
 ### 其他
 
 * [libbson](https://github.com/mongodb/libbson)-BSON实用程序库。[](https://spdx.org/licenses/Apache-2.0.html)
-* [libcbor](https://github.com/PJK/libcbor): C和其他人的CBOR协议实现。[](https://spdx.org/licenses/MIT.html)
+* [libcbor](https://github.com/PJK/libcbor): 用于C等的CBOR协议实现。[](https://spdx.org/licenses/MIT.html)
 * [libconfuse](https://github.com/martinh/libconfuse)小型配置文件解析器库。[](https://spdx.org/licenses/ISC.html)
 * [libelf](https://github.com/0intro/libelf)-用于解析ELF文件的简单库。[](https://spdx.org/licenses/MIT.html)
 * [libucl](https://github.com/vstakhov/libucl)通用配置库解析器。[](https://spdx.org/licenses/BSD-2-Clause.html)
@@ -647,7 +643,7 @@ Widget工具包，或以类似方式使用它们的东西。
 
 * [CHEAT](https://github.com/Tuplanolla/cheat)简单的单元测试框架。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [Check](https://libcheck.github.io/check)-单元测试框架。[](https://spdx.org/licenses/LGPL-2.1-only.html)
-* [ciut](https://github.com/yhfudev/cpp-ci-unit-test.git)-一个现代的最小麻烦单元测试框架。[](https://spdx.org/licenses/MIT.html)
+* [ciut](https://github.com/yhfudev/cpp-ci-unit-test.git)-一个现代的最小麻烦的单元测试框架。[](https://spdx.org/licenses/MIT.html)
 * [clar](https://github.com/vmg/clar)-清晰和简单的单元测试框架。[](https://spdx.org/licenses/MIT.html)
 * [CMock](http://www.throwtheswitch.org/cmock)-模拟/存根生成器。[](https://spdx.org/licenses/MIT.html)
 * [cmocka](https://cmocka.org/)-支持模拟对象的单元测试框架。[](https://spdx.org/licenses/Apache-2.0.html)
@@ -668,7 +664,7 @@ Widget工具包，或以类似方式使用它们的东西。
 虽然几乎任何体面的程序员的文本编辑器都支持C，但有一些扩展，使它更愉快。这些是由编辑标记的。
 
 * [CCompletion](http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip)-记事本自动完成插件。与所有作品Ctags识别的标识符。这是一个下载链接。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
-* [CEDET](http://cedet.sourceforge.net/)-Emacs开发环境工具的集合; 旨在为Emacs提供类似IDE的功能。内置。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [CEDET](http://cedet.sourceforge.net/)-Emacs开发环境工具的集合; 旨在向Emacs提供类似IDE的功能。内置。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [Flycheck](https://github.com/flycheck/flycheck)-Emacs的现代语法检查。对于C，它可以使用GCC或Clang作为后端。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [Neomake](https://github.com/neomake/neomake)-异步: Neovim/Vim的制作和linting框架。[](https://spdx.org/licenses/MIT.html)
 * [Syntastic](https://github.com/vim-syntastic/syntastic)-Vim的语法检查和linting。[](https://spdx.org/licenses/WTFPL.html)
@@ -684,12 +680,12 @@ Widget工具包，或以类似方式使用它们的东西。
 * [c](https://github.com/ryanmjacobs/c)-在命令行上一次编译并执行C “脚本”。也有shebang的支持。[](https://spdx.org/licenses/MIT.html)
 * [c99sh](https://github.com/RhysU/c99sh)-使用hash-bang运行C文件。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [cdecl](https://cdecl.org/)-在线服务，将C声明翻译成英文和反之亦然。公共领域。
-* [cinclude2dot](https://www.flourish.org/cinclude2dot/)-图形包括使用项目中的依赖关系Graphviz。[GPL-1.0-or-later](https://spdx.org/licenses/GPL-1.0.html)或[](https://spdx.org/licenses/GPL-2.0-or-later.html)或[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [cinclude2dot](https://www.flourish.org/cinclude2dot/)-图形包括使用项目中的依赖关系Graphviz。[GPL-1.0-or-later](https://spdx.org/licenses/GPL-1.0.html)或者[](https://spdx.org/licenses/GPL-2.0-or-later.html)或者[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [ClangCheck](https://clang.llvm.org/docs/ClangCheck.html)-静态分析工具，旨在与Clang一起工作。[](https://spdx.org/licenses/NCSA.html)
 * [conan.io](https://conan.io/)-C的包管理器的东西。[](https://spdx.org/licenses/MIT.html)。
 * [Cppcheck](http://cppcheck.sourceforge.net/)-静态分析工具。尽管名称，但与C配合良好。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
-* [Glade](https://glade.gnome.org/)-RAD工具，使GTK的快速开发GUIs。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [GMSL](https://gmsl.sourceforge.net/)-GNU制作标准库; 额外的集合GNU的功能。[](https://spdx.org/licenses/BSD-3-Clause.html)
+* [Glade](https://glade.gnome.org/)-RAD工具，使GTK的快速开发Gui。[](https://spdx.org/licenses/GPL-2.0-only.html)
+* [GMSL](https://gmsl.sourceforge.net/)-GNU Make标准库; 额外的集合GNU的功能。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [GNU Global](https://www.gnu.org/software/global/)-源代码标记工具。[](https://spdx.org/licenses/GPL-3.0-only.html)
 * [GPP](https://logological.org/gpp)-通用预处理器。比C更通用预处理器，但比m4更灵活。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [Highlight](http://www.andre-simon.de/index.php)-将源代码转换为格式化文本与nice突出显示。[](https://spdx.org/licenses/GPL-3.0-only.html)
@@ -697,7 +693,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [incbin](https://github.com/graphitemaster/incbin)-轻松地在C/C应用程序中包含二进制文件[](https://spdx.org/licenses/Unlicense.html)
 * [indent](https://www.gnu.org/software/indent/)-自动格式化C源代码，使其更容易阅读。也从一种样式的源转换为另一种样式。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [SMACK](https://github.com/smackers/smack)-模块化软件验证工具链和独立的软件验证器。目前仅适用于使用Clang编译的程序。[](https://spdx.org/licenses/MIT.html)
-* [unifdef](http://dotat.at/prog/unifdef/)-删除 # ifdef和 # if指令及其分隔文本不接触文件的任何其他部分。[](https://spdx.org/licenses/BSD-3-Clause.html)或[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [unifdef](http://dotat.at/prog/unifdef/)-删除 # ifdef和 # if指令及其分隔文本不接触文件的任何其他部分。[](https://spdx.org/licenses/BSD-3-Clause.html)或者[](https://spdx.org/licenses/BSD-2-Clause.html)
 ## 公用事业
 
 任何不适合其他地方的东西的 “全能” 类别。
@@ -711,8 +707,8 @@ Widget工具包，或以类似方式使用它们的东西。
 * [CommonMark](https://github.com/commonmark/commonmark-spec)-CommonMark规范的实现。
 * [cosmopolitan](https://github.com/jart/cosmopolitan)-快速可移植的静态本机textmode容器 (为Linux \ Mac \ Windows一次性构建C程序)[Variety of licenses, all open source](https://github.com/commonmark/commonmark-spec/blob/master/LICENSE)。
 * [cpu_features](https://github.com/google/cpu_features)-在运行时获取CPU功能。[](https://spdx.org/licenses/Apache-2.0.html)。
-* [CRIU](https://criu.org/Main_Page)-用户空间中的检查点/恢复; 软件工具 (带有C API)用于将正在运行的应用程序 “冻结” 到磁盘，然后恢复它。[](https://spdx.org/licenses/GPL-2.0-only.html)或[](https://spdx.org/licenses/LGPL-2.1-only.html)
-* [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/)-应用程序与一个简单的方法另一个。[](https://spdx.org/licenses/AFL-2.1.html)或[](https://spdx.org/licenses/GPL-2.0-or-later.html)
+* [CRIU](https://criu.org/Main_Page)-用户空间中的检查点/恢复; 软件工具 (带有C API)用于将正在运行的应用程序 “冻结” 到磁盘，然后恢复它。[](https://spdx.org/licenses/GPL-2.0-only.html)或者[](https://spdx.org/licenses/LGPL-2.1-only.html)
+* [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/)-应用程序与一个简单的方法另一个。[](https://spdx.org/licenses/AFL-2.1.html)或者[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [Discount](http://www.pell.portland.or.us/~orc/Code/discount/)-Markdown解析器的简单实现。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [dlx](https://github.com/blynn/dlx)-实施[Knuth's Algorithm X](https://en.wikipedia.org/wiki/Knuth's_Algorithm_X),有例子解决者。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [docopt.c](https://github.com/docopt/docopt.c)-命令行选项解析器的实现。[](https://spdx.org/licenses/MIT.html)
@@ -724,7 +720,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Kitsune](http://kitsune-dsu.com/)-高效，通用的动态软件框架正在更新。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [libCello](http://libcello.org/)-引入更高级别的编程的库C.[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libcmark](https://github.com/jgm/cmark)-用于解析CommonMark方言的库降价。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [libcoap](https://github.com/obgm/libcoap)-实施[Constrained Application Protocol](http://coap.technology/)。[](https://spdx.org/licenses/GPL-2.0-or-later.html)或[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [libcoap](https://github.com/obgm/libcoap)-实施[Constrained Application Protocol](http://coap.technology/)。[](https://spdx.org/licenses/GPL-2.0-or-later.html)或者[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [libcox](http://libcox.symisc.net/)-允许跨平台系统调用和跨不同操作系统的标准实用程序。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [libffi](https://github.com/atgreen/libffi)可移植的外函数接口库。[](https://spdx.org/licenses/MIT.html)
 * [libgeohash](https://github.com/simplegeo/libgeohash)纯C实现的Geohash算法。[](https://spdx.org/licenses/BSD-3-Clause.html)
@@ -738,7 +734,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libuv](http://libuv.org)-跨平台异步I/O。[](https://spdx.org/licenses/MIT.html)
 * [libvldmail](https://github.com/dertuxmalwieder/libvldmail)-您友好的电子邮件验证库。没有外部依赖项 (甚至不是regexps)。[](https://spdx.org/licenses/WTFPL.html)
 * [linenoise](https://github.com/antirez/linenoise)-小，独立的替代readline和libedit。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [libXDGdirs](https://github.com/Jorengarenar/libXDGdirs)-XDG基目录规范的实现[](https://spdx.org/licenses/MIT.html)
+* [libXDGdirs](https://github.com/Jorengarenar/libXDGdirs)-XDG基目录规范的一种实现[](https://spdx.org/licenses/MIT.html)
 * [MegaMimes](https://trumpowen.github.io/MegaMimes)-用于获取的库[MIME](https://en.wikipedia.org/wiki/MIME)文件的类型。[](https://spdx.org/licenses/MIT.html)
 * [ncurses](https://gnu.org/software/ncurses/)-彩色终端UI库。[](https://spdx.org/licenses/MIT.html)
 * [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses)-ncurses的简化和小版本，具有相同的接口。[](https://spdx.org/licenses/BSD-3-Clause.html)
@@ -757,7 +753,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [tm](https://github.com/recp/tm)-⏱C的计时器和时间线使用情况。[](https://spdx.org/licenses/MIT.html)
 * [Tulip Indicators](https://tulipindicators.org/)-用于技术分析的函数库财务数据。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [whereami](https://github.com/gpakosz/whereami)-一个文件库，用于在文件系统。[](https://spdx.org/licenses/WTFPL.html)
-* [XLSX I/O](https://brechtsanders.github.io/xlsxio/)-阅读和写作的跨平台库。xlsx文件。[](https://spdx.org/licenses/MIT.html)
+* [XLSX I/O](https://brechtsanders.github.io/xlsxio/)-用于阅读和写作的跨平台库。xlsx文件。[](https://spdx.org/licenses/MIT.html)
 * [xlsx_drone](https://github.com/damian-m-g/xlsx_drone)-快速Microsoft Excel的 *.xlsx阅读器。[](https://spdx.org/licenses/MIT.html)
 * [zlog](http://hardysimpson.github.io/zlog/)-可靠的，纯C日志库。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [zproto](https://github.com/zeromq/zproto)-ZeroMQ的协议框架。[](https://spdx.org/licenses/MIT.html)
@@ -768,10 +764,10 @@ Widget工具包，或以类似方式使用它们的东西。
 全面和集成的解决方案，用于构建下一个辉煌的web在C中的应用。
 
 * [Concord](https://github.com/Cogmasters/concord)-用C编写的Discord API包装库。[](https://spdx.org/licenses/MIT.html)
-* [facil.io](http://facil.io/)-用于web应用程序的迷你框架。包括一个快速的HTTP和Websocket服务器，还支持自定义协议。[](https://spdx.org/licenses/MIT.html)
+* [facil.io](http://facil.io/)-web应用程序的迷你框架。包括一个快速的HTTP和Websocket服务器，还支持自定义协议。[](https://spdx.org/licenses/MIT.html)
 * [kcgi](https://kristaps.bsd.lv/kcgi)-C的CGI和FastCGI库[](https://spdx.org/licenses/ISC.html)。
 * [KLone](http://www.koanlogic.com/klone/)-功能齐全，多平台，web应用程序开发框架，特别针对嵌入式系统和电器。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [Kore](https://kore.io/)-易于使用的web应用程序框架，用于编写可扩展的C中的web api。[](https://spdx.org/licenses/ISC.html)
+* [Kore](https://kore.io/)-易于使用的web应用程序框架，用于编写可扩展的web api在C。[](https://spdx.org/licenses/ISC.html)
 ## Windows环境
 
 旨在使Windows在以下方面投入21世纪的技术支持C。
