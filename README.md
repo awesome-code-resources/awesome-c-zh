@@ -1,13 +1,13 @@
 如果您觉得这个项目对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
 # Awesome C
 
-C好东西的精选清单。此列表包含* 仅* [open source](https://opensource.org/osd)代码 (由链接的开源定义定义) 和卖家对物质资源来说并不邪恶。
+C好东西的精选清单。此列表包含*仅* [open source](https://opensource.org/osd)代码 (由链接的开源定义定义) 和卖家对物质资源来说并不邪恶。
 
 这是在创作共用属性共享许可下发布的，版本4 (SPDX代码)。您可以在许可证文件中找到其文本。
 
-** 一个重要的注意事项:** 这个项目做* 不* 索引任何与C相关的; 仅纯C的东西被认为是。
+**一个重要的注意事项:** 这个项目做*不* 索引任何与C相关的; 仅纯C的东西被认为是。
 
-** 贡献者注意事项:** 如果您想提出请求，请阅读[this](CONTRIBUTING.md)首先。
+**贡献者注意事项:** 如果您想提出请求，请阅读[this](CONTRIBUTING.md)首先。
 
 ## 内容
 
@@ -340,7 +340,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [luigi](https://github.com/nakst/luigi)-用于Win32，X11和Essence的准系统单标题GUI库。[](https://spdx.org/licenses/MIT.html)
 ## 散列
 
-的哈希函数实现* 非* -加密目的。加密哈希可以在Crypto部分中找到。
+的哈希函数实现*非* -加密目的。加密哈希可以在Crypto部分中找到。
 
 * [CLHash](https://github.com/lemire/clhash)-库实现可笑的快速CLHash哈希功能。仅适用于Intel Haswell或更新版本。[](https://spdx.org/licenses/Apache-2.0.html)
 * [HighwayHash](https://github.com/google/highwayhash)-快速，强大，SIMD-使用哈希函数。还包含SipHash的实现 (尽管速度较慢)。[](https://spdx.org/licenses/Apache-2.0.html)
@@ -418,7 +418,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Head First C](http://shop.oreilly.com/product/0636920015482.do)-学习C的 “Head-first” 样式书。
 ### 中级书籍
 
-* [21st Century C](http://shop.oreilly.com/product/0636920033677.do)-不错_ 第二_ 关于C的编程书。
+* [21st Century C](http://shop.oreilly.com/product/0636920033677.do)-不错_第二_ 关于C的编程书。
 * [Understanding and Using C Pointers](http://shop.oreilly.com/product/0636920028000.do)-中的指针上的深入资源C.
 * [ZeroMQ](http://shop.oreilly.com/product/0636920026136.do)-使用ZeroMQ与C的书。
 ### 高级书籍
@@ -672,7 +672,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)-Vim的代码完成引擎。[](https://spdx.org/licenses/GPL-3.0-only.html)
 ## 工具
 
-有用的程序来帮助你编写和调试C代码* 不* 编辑，库或编译器。
+有用的程序来帮助你编写和调试C代码*不* 编辑，库或编译器。
 
 * [Artistic Style](http://astyle.sourceforge.net/)-快速和小型自动源代码格式化程序支持C.[](https://spdx.org/licenses/LGPL-3.0-only.html)
 * [address-sanitizer](https://github.com/google/sanitizers)-快速内存错误检测器。[](https://spdx.org/licenses/Apache-2.0.html)
