@@ -74,7 +74,7 @@ C好东西的精选清单。此列表包含*仅* [open source](https://opensourc
 * [KANN](https://github.com/attractivechaos/kann)-两个文件的ANN库。[](https://spdx.org/licenses/MIT.html)
 * [LibDEEP](https://github.com/jppbsi/LibDEEP)-深度学习库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [m2cgen](https://github.com/BayesWitnesses/m2cgen)-CLI工具，用于将经过训练的经典ML模型转换为具有零依赖关系的本机C代码。[](https://spdx.org/licenses/MIT.html)
-* [sod](https://sod.pixlab.io/)-嵌入式计算机视觉和机器学习库 [][GPL-3]
+* [sod](https://sod.pixlab.io/)-嵌入式计算机视觉和机器学习库。[](https://spdx.org/licenses/GPL-3.0-only.html)
 ## 基准测试
 
 比较跨不同芯片/系统架构的各种子系统的性能。
@@ -171,17 +171,18 @@ C好东西的精选清单。此列表包含*仅* [open source](https://opensourc
 * [s2n](https://github.com/awslabs/s2n)-C99实现的TLS/SSL协议，旨在简单，快速和安全作为优先事项。[](https://spdx.org/licenses/Apache-2.0.html)
 * [sphlib](http://www.saphir2.com/sphlib/)-各种哈希函数的实现集，包括几个加密的。[](https://spdx.org/licenses/MIT.html)
 * [trezor-crypto](https://github.com/trezor/trezor-crypto)-针对嵌入式的高度优化的加密算法设备。[](https://spdx.org/licenses/MIT.html)
-* [bfish](https://github.com/cjwagenius/bfish)-一个包括C99 Blowfish ECB加密库。公共域。
+* [bfish](https://github.com/cjwagenius/bfish)-一个包括ansi-c Blowfish ECB加密库。公共域。
 ## 数据库
 
 使用C api的数据库和数据存储。
 
 * [BerkeleyDB](http://www.oracle.com/us/products/database/berkeley-db)-用于高性能嵌入式数据库的库键值数据。[](https://spdx.org/licenses/AGPL-3.0-only.html)
+* [DuckDB](https://duckdb.org/)-快速的过程分析数据库，与C API。[](https://spdx.org/licenses/MIT.html)
 * [EJDB2](https://ejdb.org/)-可嵌入的JSON数据库引擎。[](https://spdx.org/licenses/MIT.html)
 * [Groonga](https://github.com/groonga/groonga)-带全文搜索的柱状存储。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [Hiredis](https://github.com/redis/hiredis)-Redis的简约客户端库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libmongoc](http://mongoc.org/)-高性能客户端库[MongoDB](https://www.mongodb.org/)。[](https://spdx.org/licenses/Apache-2.0.html)
-* [LMDB](https://symas.com/lightning-memory-mapped-database/)-超快速，超紧凑的键值嵌入式数据存储。[](https://spdx.org/licenses/OLDAP-2.8.html)
+* [LMDB](https://www.symas.com/lmdb)-超快速，超紧凑的键值嵌入式数据存储。[](https://spdx.org/licenses/OLDAP-2.8.html)
 * [MySQL](https://github.com/mysql/mysql-server)-世界上最流行的开源数据库。[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [PostgreSQL](https://www.postgresql.org/)-强大的对象关系数据库系统。[](https://spdx.org/licenses/PostgreSQL.html)
 * [Redis](https://redis.io/)-高级键值存储。[](https://spdx.org/licenses/BSD-3-Clause.html)
@@ -189,7 +190,9 @@ C好东西的精选清单。此列表包含*仅* [open source](https://opensourc
 * [sparkey](https://github.com/spotify/sparkey)-简单常量键/值存储库设计用于读取-带有不常见的大容量插入物的重负载。[](https://spdx.org/licenses/Apache-2.0.html)
 * [SQLite](https://www.sqlite.org/)-自包含、无服务器、零配置、事务性SQL数据库引擎。公共领域。
 * [UnQLite](https://unqlite.org/)-自包含、无服务器、零配置、事务性NoSQL引擎。[](https://spdx.org/licenses/BSD-2-Clause.html)
-* [WhiteDB](http://whitedb.org/)-轻量级数据库库，完全在main中运行记忆。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [WhiteDB](https://github.com/priitj/whitedb)-轻量级数据库库，完全在main中运行记忆。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [FlashDB](https://github.com/armink/FlashDB)-一个超轻量级的数据库，支持键值和时间序列数据。[](https://spdx.org/licenses/Apache-2.0.html)
+* [TDengine](https://github.com/taosdata/TDengine)-高性能的云原生时序数据库。[](https://spdx.org/licenses/AGPL-3.0-only.html)
 ## 数据结构
 
 * [C-Macro-Collections](https://github.com/LeoVen/C-Macro-Collections)-使用宏生成简单和通用的数据结构。[](https://spdx.org/licenses/MIT.html)
@@ -332,6 +335,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [GTK+](https://www.gtk.org/)-跨平台的小部件工具包。[](https://spdx.org/licenses/LGPL-2.1-only.html)
 * [IUP](http://webserver2.tecgraf.puc-rio.br/iup/)-另一个跨平台的小部件工具包。[](https://spdx.org/licenses/MIT.html)
 * [microui](https://github.com/rxi/microui)-用便携式ANSI C编写的微型即时模式UI库。[](https://spdx.org/licenses/MIT.html)
+* [nappgui](https://nappgui.com/)-使用C构建跨平台桌面应用程序的专业SDK。[](https://spdx.org/licenses/MIT.html)
 * [nuklear](https://github.com/Immediate-Mode-UI/Nuklear)-小，C89，单标题小部件工具包。公共领域。
 * [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/)-用于简单对话框的单文件库。兼容与许多其他工具包和操作系统。[](https://spdx.org/licenses/Zlib.html)
 * [Tk](http://www.tcl.tk/)-基本的小部件工具包。Tcl/Tk的一部分。[](https://spdx.org/licenses/TCL.html)
@@ -424,6 +428,7 @@ Widget工具包，或以类似方式使用它们的东西。
 ### 高级书籍
 
 * [Expert C Programming: Deep C Secrets](https://dl.acm.org/citation.cfm?id=179241)-有趣，深入和有趣的是看看C的内部。
+* [Modern C, Third Edition: Covers the C23 standard](http://savannah.nongnu.org/projects/attr/)在现代C，第三版中，您将学习使用最新的工具和技术来利用C的全部潜力。
 ## 词法与句法分析
 
 专门用于词法分析 (或词法分析) 和句法分析的库(或解析)。
@@ -594,6 +599,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [SDS](https://github.com/antirez/sds)-简单的动态字符串; 用于处理字符串的库更简单的方法，但一个与正常的C字符串兼容功能。可通过[clib](https://github.com/clibs/clib)。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [stmr.c](https://github.com/wooorm/stmr.c)-[Porter Stemmer](http://tartarus.org/martin/PorterStemmer/)算法实现。[](https://spdx.org/licenses/MIT.html)
 * [str](https://github.com/maxim2266/str)-另一个用于c语言的字符串库。[](https://spdx.org/licenses/BSD-3-Clause.html)
+* [StringZilla](https://github.com/ashvardanian/StringZilla)-高达10倍更快的SIMD和SWAR-加速字符串搜索，排序，哈希，编辑距离，对齐和生成器。[](https://spdx.org/licenses/Apache-2.0.html)
 * [utf8.h](https://github.com/sheredom/utf8.h)-单头UTF-8库，旨在模仿C风格的字符串功能。公共领域。
 * [utf8proc](https://github.com/JuliaLang/utf8proc)-用于处理UTF-8数据的库。[](https://spdx.org/licenses/MIT.html)
 ## 结构化文件处理
@@ -759,6 +765,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [zproto](https://github.com/zeromq/zproto)-ZeroMQ的协议框架。[](https://spdx.org/licenses/MIT.html)
 * [Metalang99](https://github.com/Hirrolot/metalang99)-全面的预处理器元编程。[](https://spdx.org/licenses/MIT.html)
 * [Datatype99](https://github.com/Hirrolot/datatype99)-C99的代数数据类型。[](https://spdx.org/licenses/MIT.html)
+* [EasyLogger](https://github.com/armink/EasyLogger)-一个超轻量级，高性能的C/C日志库。[](https://spdx.org/licenses/MIT.html)
 ## Web框架
 
 全面和集成的解决方案，用于构建下一个辉煌的web在C中的应用。
