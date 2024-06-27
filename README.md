@@ -1,7 +1,6 @@
 如果您觉得这个[项目](https://github.com/awesome-code-resources/awesome-c-zh)对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
 本项目的原始仓库地址为[这里](https://github.com/oz123/awesome-c)。
 # Awesome C
-
 C好东西的精选清单。此列表包含*仅* [open source](https://opensource.org/osd)代码 (由链接的开源定义定义) 和卖家对物质资源来说并不邪恶。
 
 这是在创作共用属性共享许可下发布的，版本4 (SPDX代码)。您可以在许可证文件中找到其文本。
@@ -118,7 +117,7 @@ C好东西的精选清单。此列表包含*仅* [open source](https://opensourc
 * [fastLZ](https://github.com/ariya/fastlz)-快如闪电的无损压缩库 (LZ77型)。可植入小目标，如手臂皮质-M家族。源代码直接可在您的项目 (一对h/c文件)，没有动态内存分配。[](https://spdx.org/licenses/MIT.html)
 * [huffandpuff](https://github.com/adamierymenko/huffandpuff)-最小的霍夫曼编码器和解码器。公共领域。
 * [libzip](https://github.com/maxim2266/str)-用于读取，创建和修改zip存档的C库。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [libbzip2](http://www.bzip.org/)-无专利，高质量的数据压缩库。[](https://spdx.org/licenses/BSD-4-Clause.html)
+* [libbzip2](http://www.bzip.org/)-无专利，高质量的数据压缩图书馆。[](https://spdx.org/licenses/BSD-4-Clause.html)
 * [Lizard](https://github.com/inikep/lizard)-前身为LZ5; 快速高效压缩机减压。实现了与zip和zlib相当的压缩比解压速度达到1000MB/s，速度更快。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [lz4](http://lz4.github.io/lz4/)-一个非常快速的压缩算法库。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [lzo](http://www.oberhumer.com/opensource/lzo/)-快速数据压缩库。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
@@ -130,7 +129,7 @@ C好东西的精选清单。此列表包含*仅* [open source](https://opensourc
 * [TurboPFor](https://github.com/powturbo/TurboPFor)-最快的整数压缩。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [TurboRLE](https://github.com/powturbo/TurboRLE)-最有效的运行长度编码。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [zip](https://github.com/kuba--/zip)-真的真的很小的zip存档处理库。[](https://spdx.org/licenses/Unlicense.html)
-* [Zlib](http://zlib.net)-大规模的spiffy但微妙的不显眼的压缩库。[](https://spdx.org/licenses/BSD-3-Clause.html)
+* [Zlib](http://zlib.net)-大规模的spiffy但微妙的不显眼的压缩图书馆。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [libarchive](https://github.com/libarchive/libarchive)-libarchive是一个可移植的，高效的C库，可以读取和写入各种格式的流档案。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [zlib-ng](https://github.com/Dead2/zlib-ng)-Zlib替换与优化 '下一代'系统。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [Zstandard](http://facebook.github.io/zstd/)-快速，无损压缩算法，针对实时zlib级别或更高压缩率的压缩方案。[](https://spdx.org/licenses/BSD-3-Clause.html)
@@ -252,7 +251,7 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [MetaCall](https://github.com/metacall/core)-跨平台的Polyglot运行时，支持NodeJS，JavaScript，TypeScript，Python，Ruby，C #，Wasm，Java，Cobol等。[](https://spdx.org/licenses/Apache-2.0.html)
 ## 框架
 
-提供数据结构和其他你期望的东西的大库“现代” 标准库。
+提供数据结构和其他你期望的东西的大图书馆“现代” 标准库。
 
 * [APR](http://apr.apache.org/)-Apache便携式运行时; 另一个跨平台实用程序库功能。[](https://spdx.org/licenses/Apache-2.0.html)
 * [C Algorithms](https://fragglet.github.io/c-algorithms)-常用算法和数据结构的集合。[](https://spdx.org/licenses/ISC.html)
@@ -273,7 +272,7 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 
 引擎、库和其他专门用于制作游戏的有用的东西。
 
-* [Allegro](https://liballeg.org)-跨平台，视频游戏开发和多媒体库。[](https://spdx.org/licenses/Zlib.html)
+* [Allegro](https://liballeg.org)-跨平台，视频游戏开发和多媒体图书馆。[](https://spdx.org/licenses/Zlib.html)
 * [AssetKit](https://github.com/recp/AssetKit)🎨基于COLLADA/glTF规格的3D资产进口商/出口商/实用库[](https://spdx.org/licenses/MIT.html)
 * [astera](https://github.com/tek256/astera)-C99跨平台2D游戏库[](https://spdx.org/licenses/MIT.html)
 * [cglm](https://github.com/recp/cglm)-优化的OpenGL/图形数学 (glm) 为C。[](https://spdx.org/licenses/MIT.html)
@@ -289,14 +288,14 @@ Fancier，IDE类型的编辑器。如果你想要一个程序员的文本编辑�
 * [FreeGLUT](http://freeglut.sourceforge.net)-OpenGL实用工具工具包的替代方案。允许使用OpenGL上下文创建和管理窗口。[](https://spdx.org/licenses/X11.html)
 * [GLFW](https://www.glfw.org/)-用于使用OpenGL创建窗口的多平台库上下文。[](https://spdx.org/licenses/Zlib.html)
 * [ioquake3](https://ioquake3.org)-Quake3引擎，终于释放了。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [kazmath](https://github.com/Kazade/kazmath)-数学库的游戏。[](https://spdx.org/licenses/BSD-2-Clause.html)
+* [kazmath](https://github.com/Kazade/kazmath)-数学图书馆的游戏。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [libao](https://xiph.org/ao/)-跨平台的音频库与各种各样的输出。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [librg](https://github.com/librg/librg)-纯C99游戏网络库，用于构建简单而优雅的跨平台多人客户端-服务器解决方案。[](https://spdx.org/licenses/Apache-2.0.html)
 * [MATHC](https://github.com/ferreiradaselva/mathc)-用于2D和3D编程的数学库。[](https://spdx.org/licenses/Zlib.html)
 * [Orx](http://orx-project.org)-便携式，轻量级，基于插件，数据驱动，面向2d游戏引擎。[](https://spdx.org/licenses/Zlib.html)
 * [Quake](https://github.com/id-Software/Quake)-地震引擎.[](https://spdx.org/licenses/GPL-2.0-only.html)
 * [Quake2](https://github.com/id-Software/Quake-2)-Quake2引擎。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [raylib](https://www.raylib.com)-简单易用的库学习视频游戏编程。[](https://spdx.org/licenses/Zlib.html)
+* [raylib](https://www.raylib.com)-简单易用的图书馆学习视频游戏编程。[](https://spdx.org/licenses/Zlib.html)
 * [RetroArch](https://github.com/libretro/RetroArch)-参考前端[libretro](https://www.libretro.com/)。[](https://spdx.org/licenses/GPL-3.0-only.html)
 * [SDL2](https://www.libsdl.org/)-跨平台库，旨在提供对音频，键盘，鼠标，操纵杆和图形硬件通过OpenGL。[](https://spdx.org/licenses/Zlib.html)
 * [sdl-gpu](https://github.com/grimfang4/sdl-gpu)-高性能的现代2D图形库。基于SDL。[](https://spdx.org/licenses/MIT.html)
@@ -521,10 +520,10 @@ Widget工具包，或以类似方式使用它们的东西。
 * [GNU MPC](http://www.multiprecision.org/mpc/)·复数算术库[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [GNU MPFR](http://mpfr.loria.fr/index.html)-任意精度浮点库算术。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [GNU MPRIA](https://gnu.org/software/mpria/)-用于多精度有理的便携式数学库区间算术。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
-* [GSL](https://www.gnu.org/software/gsl/)-GNU科学库; 一个复杂的数字库。[](https://spdx.org/licenses/GPL-3.0-only.html)。
+* [GSL](https://www.gnu.org/software/gsl/)-GNU科学图书馆; 一个复杂的数字图书馆。[](https://spdx.org/licenses/GPL-3.0-only.html)。
 * [KISS FFT](https://sourceforge.net/projects/kissfft/)简单的快速傅立叶变换库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [LAPACKE](http://www.netlib.org/lapack/lapacke.html)-接口到[LAPACK](http://www.netlib.org/lapack/)。[](https://spdx.org/licenses/BSD-3-Clause.html)
-* [LibTomMath](http://www.libtom.net/LibTomMath/)-便携式、数论、多精度整数库。支持代数、数字操作、模块化归约和各种数论例程。公共领域。
+* [LibTomMath](http://www.libtom.net/LibTomMath/)-便携式、数论、多精度整数图书馆。支持代数、数字操作、模块化归约和各种数论例程。公共领域。
 * [LibTomPoly](http://www.libtom.net/LibTomPoly/)-多项式相关数学库。公共领域。
 * [PARI/GP](http://pari.math.u-bordeaux.fr/)-数论的计算机代数系统; 包括一个编译器到C。[](https://spdx.org/licenses/GPL-2.0-or-later.html)
 * [PETSc](http://www.mcs.anl.gov/petsc/)-一套可扩展并行的数据结构和例程用偏微分建模的科学应用的解决方案方程式。[](https://spdx.org/licenses/BSD-2-Clause.html)
@@ -568,7 +567,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [CCAN](http://ccodearchive.net/)-以Perl的CPAN为模型，这是一个大的代码集合做的东西。完整列表是[here](http://ccodearchive.net/list.html)。各种许可证，所有开源。
 * [clib](https://github.com/clibs/clib)-一个包管理器的东西。附带a[bunch of libraries of its own](https://github.com/clibs/clib/wiki/Packages)。[](https://spdx.org/licenses/MIT.html)
 * [gnulib](https://www.gnu.org/software/gnulib/)-通用GNU代码的集合。各种许可证，所有开源。
-* [libdjb](http://www.fefe.de/djb/)-库做各种事情的集合。(显然)公共领域。
+* [libdjb](http://www.fefe.de/djb/)-图书馆做各种事情的集合。(显然)公共领域。
 * [mmx](https://github.com/vurtun/mmx)-单头库的集合。各种许可证，所有开源。
 * [par](https://github.com/prideout/par)-一堆单文件库。[](https://spdx.org/licenses/MIT.html)
 * [Snippets](https://github.com/DanielGibson/Snippets/)-有用的代码片段和仅标题库。公共领域。
@@ -582,7 +581,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [Bionic](https://github.com/aosp-mirror/platform_bionic)-为Android开发的Google标准库。[](https://spdx.org/licenses/BSD-3-Clause.html)
 * [cloudlibc](https://github.com/NuxiNL/cloudlibc)-基于概念的标准库[capability-based security](https://en.wikipedia.org/wiki/Capability-based_security)。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [dietlibc](https://www.fefe.de/dietlibc/)-为尽可能小的标准库设计二进制文件。[](https://spdx.org/licenses/GPL-2.0-only.html)
-* [glibc](https://www.gnu.org/software/libc/)-GNU C库; 标准的实现库。[](https://spdx.org/licenses/LGPL-2.1-only.html)。
+* [glibc](https://www.gnu.org/software/libc/)-GNU C库; 标准的实现图书馆。[](https://spdx.org/licenses/LGPL-2.1-only.html)。
 * [musl](https://musl.libc.org/)-标准库，与POSIX 2008和c11兼容。设计用于静态链接。[](https://spdx.org/licenses/MIT.html)
 * [PDCLib](http://pdclib.e43.eu/)-公共领域C库。实现了大部分的C99和一些C11。[](https://spdx.org/licenses/CC0-1.0.html)
 * [uClibc-ng](https://uclibc-ng.org/)-用于开发嵌入式系统的小型C库。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
@@ -722,7 +721,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [dyncall](http://www.dyncall.org/)-另一个外部函数接口库。[](https://spdx.org/licenses/MIT.html)
 * [GNU FreeIPMI](https://gnu.org/software/freeipmi/index.html)-带内和带外IPMI实施。[](https://spdx.org/licenses/GPL-3.0-only.html)
 * [GNU gperf](https://www.gnu.org/software/gperf/)-完美的哈希函数生成器，给定的列表字符串。输出C代码。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
-* [GNU Libffcall](https://gnu.org/software/libffcall/)-收集用于建立外国功能的库接口。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
+* [GNU Libffcall](https://gnu.org/software/libffcall/)-收集用于建立外国功能的图书馆接口。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [Hoedown](https://github.com/hoedown/hoedown)-完全符合标准，支持扩展，UTF-8意识，快速降价解析器。[](https://spdx.org/licenses/MIT.html)
 * [Kitsune](http://kitsune-dsu.com/)-高效，通用的动态软件框架正在更新。[](https://spdx.org/licenses/LGPL-3.0-or-later.html)
 * [libCello](http://libcello.org/)-引入更高级别的编程的库C.[](https://spdx.org/licenses/BSD-3-Clause.html)
@@ -734,7 +733,7 @@ Widget工具包，或以类似方式使用它们的东西。
 * [libgit2](https://libgit2.org/)-Git核心方法的可移植实现，作为可重入可链接库。[Custom license](https://github.com/libgit2/libgit2/blob/master/COPYING)。
 * [libgss](https://gnu.org/software/gss/)-通用安全服务。[](https://spdx.org/licenses/GPL-3.0-or-later.html)
 * [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice)-跨平台协议库进行通信用iThings。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
-* [libnfc](https://github.com/nfc-tools/libnfc)-独立于平台的近场通信库。[](https://spdx.org/licenses/LGPL-3.0-only.html)
+* [libnfc](https://github.com/nfc-tools/libnfc)-独立于平台的近场通信图书馆。[](https://spdx.org/licenses/LGPL-3.0-only.html)
 * [libpostal](https://github.com/openvenues/libpostal)-用于解析和规范化街道地址的库在世界各地。由统计NLP和开放地理数据提供支持。[](https://spdx.org/licenses/MIT.html)
 * [libtrading](http://libtrading.org/)-实现用于通信的网络协议与交易所、暗池等交易场所。支持FIX，FIX/FAST和许多专有协议。[](https://spdx.org/licenses/BSD-2-Clause.html)
 * [libusb](https://libusb.info/)-提供对USB设备的通用访问。[](https://spdx.org/licenses/LGPL-2.1-or-later.html)
